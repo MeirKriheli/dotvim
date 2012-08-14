@@ -18,6 +18,8 @@ Features
 * `pathogen.vim`_
 * Solarized_ color scheme
 * MiniBufExplorer_
+* `vimrc` handling
+* Incremental and smart case search.
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -39,3 +41,5 @@ Shortcuts
     Load `.vimrc`
 ``<Leader>V``
     Activate changes to `.vimrc` (Make sure to save it before)
+``<F4>``
+    Toggle search highlighting on/off, and show current value

@@ -73,10 +73,26 @@ cno jj <c-c>
 map <c-c> <Nop>
 imap <c-c> <Nop>
 
+" ==================================================
+" vimrc handling
+" ==================================================
+
 " ,v loads .vimrc
-" ,V reloads .vimrec -- activating changes (needs save)
+" ,V reloads .vimrc -- activating changes (needs save)
 map <leader>v :sp ~/.vimrc<CR><C-W>_
 map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
+
+" ==================================================
+" Search settings
+" ==================================================
+
+set hlsearch    " highlight searches
+set incsearch   " do incremental searching
+set ignorecase  " ignore case when searching
+set smartcase   " if searching and search contains upper case, make case sensitive search
+
+" Press F4 to toggle highlighting on/off, and show current value.
+noremap <F4> :set hlsearch! hlsearch?<CR>
 
 " ==================================================
 " MiniBufExplorer settings
