@@ -12,19 +12,25 @@ Usage
     git submodule update
 
 
-Features
+Plugins
 ============
 
 * `pathogen.vim`_
 * Solarized_ color scheme
 * MiniBufExplorer_
-* `vimrc` handling
-* Incremental and smart case search.
-* Trailing whitespace highlightling and cleaning shortcut.
+* fugitive.vim_
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
 .. _MiniBufExplorer: https://github.com/fholgado/minibufexpl.vim
+.. _fugitive.vim: https://github.com/tpope/vim-fugitive
+
+Settings
+============
+
+* `vimrc` handling
+* Incremental and smart case search.
+* Trailing whitespace highlightling and cleaning shortcut.
 
 
 Shortcuts
