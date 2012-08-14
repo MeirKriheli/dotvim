@@ -59,5 +59,5 @@ Shortcuts
     Remove trailing whitespace
 ``-``, ``+``
     Resize horizontal splits
-``<ALT>``+``<`` ``<ALT>``+``<``
+``<ALT>``+``<`` ``<ALT>``+``>``
     Resize vertical splits

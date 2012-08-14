@@ -132,6 +132,10 @@ imap <C-W> <C-O><C-W>
 map - <C-W>-
 map + <C-W>+
 
-" alt-< or alt-> for vertical splits 
-map <M-,> <C-W>>
-map <M-.> <C-W><
+" alt-< or alt-> for vertical splits
+map <m-,> <C-W>>
+map <m-.> <C-W><
+
+" And for gnome terminal etc
+map , <C-W>>
+map . <C-W><
