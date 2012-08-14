@@ -44,5 +44,5 @@ Shortcuts
     Activate changes to `.vimrc` (Make sure to save it before)
 ``<F4>``
     Toggle search highlighting on/off, and show current value
-``<Leader>S`
+``<Leader>S``
     Remove trailing whitespace
