@@ -1,3 +1,9 @@
+" ==================================================
+" Shortcuts Documented
+" ==================================================
+" jj - act as Esc in insert and command modes
+
+
 " Make sure this pathogen is taken into account
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
@@ -55,11 +61,11 @@ set sm                  " show matching braces, somewhat annoying...
 " Basic Maps
 " ==================================================
 
-" Maps for jj to act as Esc
+" Maps for jj to act as Esc in insert and command modes
 ino jj <esc>
 cno jj <c-c>
 
-" map ctrl-c to something else so I quick using it
+" One can map ctrl-c to something else if needed
 map <c-c> <Nop>
 imap <c-c> <Nop>
 
@@ -67,4 +73,3 @@ imap <c-c> <Nop>
 " ,V reloads it -- making all changes active (have to save first)
 map <leader>v :sp ~/.vimrc<CR><C-W>_
 map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
-
