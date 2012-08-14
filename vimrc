@@ -4,6 +4,8 @@
 " jj - act as Esc in insert and command modes
 " Control + [hjkl] and Control + Arrow Keys -  window movement commands
 " <C-TAB> and <C-TAB> - Next or previous buffer
+" <leader>v - loads .vimrc
+" <leader>V - reloads .vimrec -- activating changes (needs save)
 
 
 " Make sure this pathogen is taken into account
@@ -71,8 +73,8 @@ cno jj <c-c>
 map <c-c> <Nop>
 imap <c-c> <Nop>
 
-" ,v brings up my .vimrc
-" ,V reloads it -- making all changes active (have to save first)
+" ,v loads .vimrc
+" ,V reloads .vimrec -- activating changes (needs save)
 map <leader>v :sp ~/.vimrc<CR><C-W>_
 map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
 

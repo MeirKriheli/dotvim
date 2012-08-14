@@ -33,3 +33,9 @@ Shortcuts
     Window movement commands (mapped via MiniBufExplorer settings)
 ``<C-TAB>`` and ``<C-S-TAB>``
     Next or previous buffer in the current window (via MiniBufExplorer settings)
+``,``
+    <Leader>
+``<Leader>v``
+    Load `.vimrc`
+``<Leader>V``
+    Activate changes to `.vimrc` (Make sure to save it before)
