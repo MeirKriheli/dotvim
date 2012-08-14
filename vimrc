@@ -2,6 +2,8 @@
 " Shortcuts Documented
 " ==================================================
 " jj - act as Esc in insert and command modes
+" Control + [hjkl] and Control + Arrow Keys -  window movement commands
+" <C-TAB> and <C-TAB> - Next or previous buffer
 
 
 " Make sure this pathogen is taken into account
@@ -58,7 +60,7 @@ set matchtime=3
 set sm                  " show matching braces, somewhat annoying...
 
 " ==================================================
-" Basic Maps
+" Basic Mappings
 " ==================================================
 
 " Maps for jj to act as Esc in insert and command modes
@@ -73,3 +75,13 @@ imap <c-c> <Nop>
 " ,V reloads it -- making all changes active (have to save first)
 map <leader>v :sp ~/.vimrc<CR><C-W>_
 map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
+
+" ==================================================
+" MiniBufExplorer settings
+" ==================================================
+
+let g:miniBufExplMapWindowNavVim = 1    " <CTRL> + [hjkl] window movement commands
+let g:miniBufExplMapWindowNavArrows = 1 " <CTRL> + Arrow Keys window movement commands
+let g:miniBufExplMapCTabSwitchBufs = 1  " <C-TAB> and <C-S-TAB> next or previous buffer in the current window
+let g:miniBufExplUseSingleClick = 1     " Single click on tabs to goto the selected buffer
+let g:miniBufExplModSelTarget = 1       " If using other explorers like TagList 

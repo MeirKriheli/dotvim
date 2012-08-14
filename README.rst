@@ -17,9 +17,11 @@ Features
 
 * `pathogen.vim`_
 * Solarized_ color scheme
+* MiniBufExplorer_
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
+.. _MiniBufExplorer: https://github.com/fholgado/minibufexpl.vim
 
 
 Shortcuts
@@ -27,3 +29,7 @@ Shortcuts
 
 ``jj``
     Esc in insert and command modes
+``<CTRL>`` + [``h`` ``j`` ``k`` ``l``], ``CTRL`` + Arrow Keys
+    Window movement commands (mapped via MiniBufExplorer settings)
+``<C-TAB>`` and ``<C-S-TAB>``
+    Next or previous buffer in the current window (via MiniBufExplorer settings)
