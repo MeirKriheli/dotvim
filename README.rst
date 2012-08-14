@@ -22,11 +22,13 @@ Plugins
 * Solarized_ color scheme
 * MiniBufExplorer_
 * fugitive.vim_
+* vcscommand_
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
 .. _MiniBufExplorer: https://github.com/fholgado/minibufexpl.vim
 .. _fugitive.vim: https://github.com/tpope/vim-fugitive
+.. _vcscommand: http://www.vim.org/scripts/script.php?script_id=90
 
 Settings
 ============
