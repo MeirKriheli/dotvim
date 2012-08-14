@@ -2,10 +2,14 @@
 " Shortcuts Documented
 " ==================================================
 " jj - act as Esc in insert and command modes
-" Control + [hjkl] and Control + Arrow Keys -  window movement commands
+" <CTRL> + [hjkl] and Control + Arrow Keys -  window movement commands
 " <C-TAB> and <C-TAB> - Next or previous buffer
 " <leader>v - loads .vimrc
 " <leader>V - reloads .vimrec -- activating changes (needs save)
+" <leader>S - Remove trailing whitespace
+" <F4> - Toggle search highlight
+" - and + - Resize horizontal splits
+" <M>< and <M>< - Resize vertical splits
 
 
 " Make sure this pathogen is taken into account
@@ -98,6 +102,7 @@ noremap <F4> :set hlsearch! hlsearch?<CR>
 " ==================================================
 " Trailing whitespace handling
 " ==================================================
+
 " Highlight end of line whitespace.
 highlight WhitespaceEOL ctermbg=red guibg=red
 match WhitespaceEOL /\s\+$/
@@ -114,3 +119,19 @@ let g:miniBufExplMapWindowNavArrows = 1 " <CTRL> + Arrow Keys window movement co
 let g:miniBufExplMapCTabSwitchBufs = 1  " <C-TAB> and <C-S-TAB> next or previous buffer in the current window
 let g:miniBufExplUseSingleClick = 1     " Single click on tabs to goto the selected buffer
 let g:miniBufExplModSelTarget = 1       " If using other explorers like TagList
+
+
+" ==================================================
+" Splits handling
+" ==================================================
+"
+" Make these all work in insert mode 
+imap <C-W> <C-O><C-W>
+
+" - and + to resize horizontal splits
+map - <C-W>-
+map + <C-W>+
+
+" alt-< or alt-> for vertical splits 
+map <M-,> <C-W>>
+map <M-.> <C-W><

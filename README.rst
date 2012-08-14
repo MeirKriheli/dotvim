@@ -57,3 +57,7 @@ Shortcuts
     Toggle search highlighting on/off, and show current value
 ``<Leader>S``
     Remove trailing whitespace
+``-``, ``+``
+    Resize horizontal splits
+``<ALT>``+``<`` ``<ALT>``+``<``
+    Resize vertical splits
