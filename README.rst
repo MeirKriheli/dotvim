@@ -10,6 +10,8 @@ Usage::
 Features:
 
 * `pathogen.vim`_
+* Solarized_ color scheme
 
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
+.. _Solarized: https://github.com/altercation/vim-colors-solarized
