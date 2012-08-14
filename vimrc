@@ -94,6 +94,17 @@ set smartcase   " if searching and search contains upper case, make case sensiti
 " Press F4 to toggle highlighting on/off, and show current value.
 noremap <F4> :set hlsearch! hlsearch?<CR>
 
+
+" ==================================================
+" Trailing whitespace handling
+" ==================================================
+" Highlight end of line whitespace.
+highlight WhitespaceEOL ctermbg=red guibg=red
+match WhitespaceEOL /\s\+$/
+
+" Clean all end of line extra whitespace with ,S
+:nnoremap <silent><leader>S :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
 " ==================================================
 " MiniBufExplorer settings
 " ==================================================
@@ -102,4 +113,4 @@ let g:miniBufExplMapWindowNavVim = 1    " <CTRL> + [hjkl] window movement comman
 let g:miniBufExplMapWindowNavArrows = 1 " <CTRL> + Arrow Keys window movement commands
 let g:miniBufExplMapCTabSwitchBufs = 1  " <C-TAB> and <C-S-TAB> next or previous buffer in the current window
 let g:miniBufExplUseSingleClick = 1     " Single click on tabs to goto the selected buffer
-let g:miniBufExplModSelTarget = 1       " If using other explorers like TagList 
+let g:miniBufExplModSelTarget = 1       " If using other explorers like TagList

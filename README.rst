@@ -20,6 +20,7 @@ Features
 * MiniBufExplorer_
 * `vimrc` handling
 * Incremental and smart case search.
+* Trailing whitespace highlightling and cleaning shortcut.
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -43,3 +44,5 @@ Shortcuts
     Activate changes to `.vimrc` (Make sure to save it before)
 ``<F4>``
     Toggle search highlighting on/off, and show current value
+``<Leader>S`
+    Remove trailing whitespace
