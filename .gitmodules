@@ -67,3 +67,6 @@
 [submodule "bundle/jinja"]
 	path = bundle/jinja
 	url = https://github.com/vim-scripts/Jinja.git
+[submodule "bundle/jquery"]
+	path = bundle/jquery
+	url = https://github.com/vim-scripts/jQuery
