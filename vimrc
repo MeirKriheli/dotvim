@@ -10,6 +10,9 @@
 " <F4> - Toggle search highlight
 " - and + - Resize horizontal splits
 " <M>< and <M>< - Resize vertical splits
+" <F3> - Toggle NERD tree
+" <F4> - Toggle search highlight
+" <F5> - Toggle Tagbar
 " <F9> - Toggle logical (RTL, e.g: Hebrew) editing
 " <F8> - Toggle visual (RTL, e.g: Hebrew) editing
 

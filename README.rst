@@ -35,8 +35,9 @@ Plugins
 * vim-surround_ - quoting/parenthesizing made simple
 * Shebang_ - Make executable by setting the correct shebang and executable bit
 * Tagbar_ - Displays tags in a window, ordered by class etc
-* css3-mod_ - css syntax script to support css3 
+* css3-mod_ - css syntax script to support css3
 * `NERD tree`_ - A tree explorer
+* ack.vim_ - Plugin for the Perl module / CLI script 'ack'
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -55,6 +56,7 @@ Plugins
 .. _Tagbar: http://majutsushi.github.com/tagbar/
 .. _css3-mod: https://github.com/vim-scripts/css3-mod
 .. _NERD tree: https://github.com/scrooloose/nerdtree
+.. _ack.vim: https://github.com/mileszs/ack.vim
 
 
 Settings
@@ -65,6 +67,8 @@ Settings
 * Trailing whitespace highlightling and cleaning shortcut.
 * Logical and Visual layout (for Right-To-Left lanaguegs) editing.
 * Tabs expand to 4 spaces by default
+* Remap ```<Leader>`` to ``,`` and ``jj` to ``<ESC>``
+* Highlight current row and color column 80
 
 
 Shortcuts and re-Mappings
