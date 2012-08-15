@@ -10,6 +10,8 @@
 " <F4> - Toggle search highlight
 " - and + - Resize horizontal splits
 " <M>< and <M>< - Resize vertical splits
+" <F9> - Toggle logical (RTL, e.g: Hebrew) editing
+" <F8> - Toggle visual (RTL, e.g: Hebrew) editing
 
 
 " Make sure this pathogen is taken into account
@@ -124,7 +126,7 @@ let g:miniBufExplModSelTarget = 1       " If using other explorers like TagList
 " ==================================================
 " Splits handling
 " ==================================================
-"
+
 " Make these all work in insert mode 
 imap <C-W> <C-O><C-W>
 
@@ -139,3 +141,19 @@ map <m-.> <C-W><
 " And for gnome terminal etc
 map , <C-W>>
 map . <C-W><
+
+" ==================================================
+" Right-to-Left (Hebrew etc) shortcuts
+" ==================================================
+
+" toggle direction mapping
+" this is useful for logical-order editing
+map <F9>   :set invrl<CR>
+" do it when in insert mode as well (and return to insert mode)
+imap <F9> <Esc>:set invrl<CR>a
+
+" toggle reverse insertion 
+" this is useful for visual-order editing
+map <F8>   :set invrevins<CR>
+" do it when in insert mode as well (and return to insert mode)
+imap <F8> <Esc>:set invrevins<CR>a

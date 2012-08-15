@@ -36,6 +36,7 @@ Settings
 * `vimrc` handling
 * Incremental and smart case search.
 * Trailing whitespace highlightling and cleaning shortcut.
+* Logical and Visual layout (for Right-To-Left lanaguegs) editing.
 
 
 Shortcuts
@@ -61,3 +62,7 @@ Shortcuts
     Resize horizontal splits
 ``<ALT>``+``<`` ``<ALT>``+``>``
     Resize vertical splits
+``<F9>``
+    Toggle logical (RTL, e.g: Hebrew) editing
+``<F8>``
+    Toggle visual (RTL, e.g: Hebrew) editing
