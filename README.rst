@@ -18,12 +18,12 @@ bundles::
 Plugins
 ============
 
-* `pathogen.vim`_
-* Solarized_ color scheme
-* MiniBufExplorer_
-* fugitive.vim_
-* vcscommand_
-* ctrlp.vim_
+* `pathogen.vim`_ - manage your runtimepath
+* Solarized_ - color scheme
+* MiniBufExplorer_ - Elegant buffer explorer
+  fugitiv.evim_ - a Git wrapper so awesome, it should be illegal
+* vcscommand_ - CVS/SVN/SVK/git/hg/bzr integration plugin
+* ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder.
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
