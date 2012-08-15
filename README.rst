@@ -60,7 +60,7 @@ Shortcuts
     Remove trailing whitespace
 ``-``, ``+``
     Resize horizontal splits
-``<ALT>``+``<`` ``<ALT>``+``>``
+``<ALT><`` ``<ALT>>``
     Resize vertical splits
 ``<F9>``
     Toggle logical (RTL, e.g: Hebrew) editing
