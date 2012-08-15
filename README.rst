@@ -27,6 +27,7 @@ Plugins
 * Syntastic_ - Syntax checking hacks for vim.
 * snipMate_ - implements some of TextMate's snippets features in Vim.
 * snipmate-snippets_ - snipmate default snippets
+* python-mode_ - Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -37,6 +38,7 @@ Plugins
 .. _Syntastic: https://github.com/scrooloose/syntastic
 .. _snipMate: https://github.com/garbas/vim-snipmate
 .. _snipmate-snippets : https://github.com/honza/snipmate-snippets
+.. _python-mode: https://github.com/klen/python-mode
 
 Settings
 ============
