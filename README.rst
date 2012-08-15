@@ -2,7 +2,7 @@
 My vim setup
 ============================================================
 
-My vim IDE setup for python, html, css, javascript and more
+My vim IDE setup for python, html, css, javascript, gettext and more
 
 Usage
 ============
@@ -42,6 +42,7 @@ Plugins
 * po.vim_ - Easier editing of GNU gettext PO files 
 * json.vim_ - A syntax highlighting file for JSON
 * TaskKist_ - Eclipse like task list
+* MatchIt_ - Extended % matching for HTML, LaTeX, and many other languages
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
