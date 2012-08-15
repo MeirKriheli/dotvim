@@ -4,6 +4,27 @@ My vim setup
 
 My vim IDE setup for python, html, css, javascript, gettext and more
 
+Features
+============
+
+* `vimrc` handling
+* Incremental and smart case search.
+* Trailing whitespace highlightling and cleaning shortcut.
+* Logical and Visual layout (for Right-To-Left lanaguegs) editing.
+* Tabs expand to 4 spaces by default
+* Remap ```<Leader>`` to ``,`` and ``jj` to ``<ESC>``
+* Highlight current row and color column 80
+* Extra syntax highlighting (css3, less, json, jinja, jquery etc)
+* Syntax checking
+* Snippets 
+* Python completion, refactoring, navigation and docs
+* Quotes, parens etc pair, surround
+* Extended pair matching with %
+* ASCII drawing
+* Fuzzy file, buffer, mru, tag, etc finder
+* Task list
+* VCS plugins (git, hg, svn, etc)
+
 Usage
 ============
 
@@ -67,18 +88,6 @@ Plugins
 .. _json.vim: https://github.com/argent-smith/JSON.vim
 .. _TaskList: http://juan.axisym3.net/vim-plugins/#tasklist
 .. _MatchIt: http://www.vim.org/scripts/script.php?script_id=39
-
-Settings
-============
-
-* `vimrc` handling
-* Incremental and smart case search.
-* Trailing whitespace highlightling and cleaning shortcut.
-* Logical and Visual layout (for Right-To-Left lanaguegs) editing.
-* Tabs expand to 4 spaces by default
-* Remap ```<Leader>`` to ``,`` and ``jj` to ``<ESC>``
-* Highlight current row and color column 80
-
 
 Shortcuts and re-Mappings
 ============================
