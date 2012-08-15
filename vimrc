@@ -187,9 +187,12 @@ imap <F8> <Esc>:set invrevins<CR>a
 
 " define less filetype
 au BufNewFile,BufRead *.less set filetype=less
-"
+
 " make the smarty .tpl files html files for our purposes
 au BufNewFile,BufRead *.tpl set filetype=html
+
+" json
+au! BufRead,BufNewFile *.json set filetype=json 
 
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
 autocmd Filetype xhtml setlocal ts=2 sw=2 expandtab
