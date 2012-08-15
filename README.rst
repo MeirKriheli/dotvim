@@ -66,6 +66,7 @@ Plugins
 .. _po.vim: http://vim.sourceforge.net/scripts/script.php?script_id=695
 .. _json.vim: https://github.com/argent-smith/JSON.vim
 .. _TaskList: http://juan.axisym3.net/vim-plugins/#tasklist
+.. _MatchIt: http://www.vim.org/scripts/script.php?script_id=39
 
 Settings
 ============
