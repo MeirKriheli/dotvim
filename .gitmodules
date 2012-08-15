@@ -58,3 +58,6 @@
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "bundle/json.vim"]
+	path = bundle/json.vim
+	url = https://github.com/argent-smith/JSON.vim.git
