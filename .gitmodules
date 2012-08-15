@@ -49,3 +49,6 @@
 [submodule "bundle/css3"]
 	path = bundle/css3
 	url = https://github.com/vim-scripts/css3-mod.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git

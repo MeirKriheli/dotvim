@@ -198,3 +198,9 @@ autocmd FileType html set ft=htmldjango.html " For SnipMate
 " ==================================================
 
 nmap <F5> :TagbarToggle<CR>
+
+" ==================================================
+" NERDTree
+" ==================================================
+let NERDTreeIgnore = ['\.pyc$', '\.pyo$']
+map <F3> :NERDTreeToggle<CR>

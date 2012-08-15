@@ -36,6 +36,7 @@ Plugins
 * Shebang_ - Make executable by setting the correct shebang and executable bit
 * Tagbar_ - Displays tags in a window, ordered by class etc
 * css3-mod_ - css syntax script to support css3 
+* `NERD tree`_ - A tree explorer
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -53,6 +54,7 @@ Plugins
 .. _Shebang: https://github.com/vim-scripts/Shebang
 .. _Tagbar: http://majutsushi.github.com/tagbar/
 .. _css3-mod: https://github.com/vim-scripts/css3-mod
+.. _NERD tree: https://github.com/scrooloose/nerdtree
 
 
 Settings
@@ -79,7 +81,9 @@ Key                     Command
 ----------------------  -----------------------------------------------------------------
 ``<Leader>V``           Activate changes to `.vimrc` (Make sure to save it before)
 ----------------------  -----------------------------------------------------------------
-``<F4>``                Toggle search highlighting on/off, and show current value
+``<F3>``                Toggle NERD tree
+----------------------  -----------------------------------------------------------------
+``<F5>``                Toggle Tagbar
 ----------------------  -----------------------------------------------------------------
 ``<F5>``                Toggle Tagbar
 ----------------------  -----------------------------------------------------------------
