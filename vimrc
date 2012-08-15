@@ -66,6 +66,7 @@ set matchpairs+=<:>     " show matching <> (html mainly) as well
 set showmatch
 set matchtime=3
 set sm                  " show matching braces, somewhat annoying...
+set mouse=a
 
 " ==================================================
 " Basic Mappings
