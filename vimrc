@@ -61,12 +61,18 @@ set modeline            " last lines in document sets vim mode
 set modelines=3         " number lines checked for modelines
 set shortmess=atI       " Abbreviate messages
 set nostartofline       " don't jump to first character when paging
-set backspace=start,indent,eol
+set backspace=indent,eol,start
 set matchpairs+=<:>     " show matching <> (html mainly) as well
 set showmatch
 set matchtime=3
 set sm                  " show matching braces, somewhat annoying...
 set mouse=a
+
+" Tab expanded to 4 spaces
+set tabstop=4           " numbers of spaces of tab character
+set shiftwidth=4        " numbers of spaces to (auto)indent
+set expandtab		" Tab to spaces by default
+set softtabstop=4
 
 " ==================================================
 " Basic Mappings

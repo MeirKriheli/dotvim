@@ -39,6 +39,7 @@ Settings
 * Incremental and smart case search.
 * Trailing whitespace highlightling and cleaning shortcut.
 * Logical and Visual layout (for Right-To-Left lanaguegs) editing.
+* Tabs expand to 4 spaces by default
 
 
 Shortcuts
