@@ -39,6 +39,7 @@ Plugins
 * `NERD tree`_ - A tree explorer
 * ack.vim_ - Plugin for the Perl module / CLI script 'ack'
 * auto-pairs_ - Insert or delete brackets, parens, quotes in pair
+* po.vim_ - Easier editing of GNU gettext PO files 
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -59,6 +60,7 @@ Plugins
 .. _NERD tree: https://github.com/scrooloose/nerdtree
 .. _ack.vim: https://github.com/mileszs/ack.vim
 .. _auto-pairs: https://github.com/jiangmiao/auto-pairs
+.. _po.vim: http://vim.sourceforge.net/scripts/script.php?script_id=695
 
 
 Settings
