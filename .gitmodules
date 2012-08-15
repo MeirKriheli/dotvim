@@ -40,3 +40,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/shebang"]
+	path = bundle/shebang
+	url = https://github.com/vim-scripts/Shebang.git

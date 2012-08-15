@@ -31,6 +31,7 @@ Plugins
 * DrawIt_ - Ascii drawing plugin: lines, ellipses, arrows, fills, and more!
 * vim-less_ - less support for vim
 * vim-surround_ - quoting/parenthesizing made simple
+* Shebang_ - Make executable by setting the correct shebang and executable bit
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -45,7 +46,7 @@ Plugins
 .. _DrawIt: https://github.com/vim-scripts/DrawIt
 .. _vim-less: https://github.com/vim-scripts/vim-less
 .. _vim-surround: https://github.com/tpope/vim-surround
-
+.. _Shebang: https://github.com/vim-scripts/Shebang
 
 Settings
 ============
