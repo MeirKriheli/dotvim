@@ -28,6 +28,7 @@ Plugins
 * snipMate_ - implements some of TextMate's snippets features in Vim.
 * snipmate-snippets_ - snipmate default snippets
 * python-mode_ - Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box
+* DrawIt_ - Ascii drawing plugin: lines, ellipses, arrows, fills, and more!
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -39,6 +40,8 @@ Plugins
 .. _snipMate: https://github.com/garbas/vim-snipmate
 .. _snipmate-snippets : https://github.com/honza/snipmate-snippets
 .. _python-mode: https://github.com/klen/python-mode
+.. _DrawIt: https://github.com/vim-scripts/DrawIt
+
 
 Settings
 ============
@@ -50,30 +53,37 @@ Settings
 * Tabs expand to 4 spaces by default
 
 
-Shortcuts
-==============
+Shortcuts and re-Mappings
+============================
 
-``jj``
-    Esc in insert and command modes
-``<CTRL>`` + [``h`` ``j`` ``k`` ``l``], ``CTRL`` + Arrow Keys
-    Window movement commands (mapped via MiniBufExplorer settings)
-``<C-TAB>`` and ``<C-S-TAB>``
-    Next or previous buffer in the current window (via MiniBufExplorer settings)
-``,``
-    <Leader>
-``<Leader>v``
-    Load `.vimrc`
-``<Leader>V``
-    Activate changes to `.vimrc` (Make sure to save it before)
-``<F4>``
-    Toggle search highlighting on/off, and show current value
-``<Leader>S``
-    Remove trailing whitespace
-``-``, ``+``
-    Resize horizontal splits
-``<ALT><`` ``<ALT>>``
-    Resize vertical splits
-``<F9>``
-    Toggle logical (RTL, e.g: Hebrew) editing
-``<F8>``
-    Toggle visual (RTL, e.g: Hebrew) editing
+======================  =================================================================
+Key                     Command
+======================  =================================================================
+``jj``                  ``<Esc>`` in insert and command modes
+----------------------  -----------------------------------------------------------------
+``,``                   ``<Leader>``
+----------------------  -----------------------------------------------------------------
+``<Leader>v``           Load `.vimrc`
+----------------------  -----------------------------------------------------------------
+``<Leader>V``           Activate changes to `.vimrc` (Make sure to save it before)
+----------------------  -----------------------------------------------------------------
+``<F4>``                Toggle search highlighting on/off, and show current value
+----------------------  -----------------------------------------------------------------
+``<Leader>S``           Remove trailing whitespace
+----------------------  -----------------------------------------------------------------
+``<CTRL>hjkl``          Window movement commands (mapped via MiniBufExplorer settings)
+----------------------  -----------------------------------------------------------------
+``<CTRL>arrow``         Window movement commands (mapped via MiniBufExplorer settings)
+----------------------  -----------------------------------------------------------------
+``<C-TAB>``             Next buffer in current window (via MiniBufExplorer settings)
+----------------------  -----------------------------------------------------------------
+``<C-S-TAB>``           Previous buffer in current window (via MiniBufExplorer settings)
+----------------------  -----------------------------------------------------------------
+``-``, ``+``            Resize horizontal splits
+----------------------  -----------------------------------------------------------------
+``<ALT><`` ``<ALT>>``   Resize vertical splits
+----------------------  -----------------------------------------------------------------
+``<F9>``                 Toggle logical (RTL, e.g: Hebrew) editing
+----------------------  -----------------------------------------------------------------
+``<F8>``                Toggle visual (RTL, e.g: Hebrew) editing
+======================  =================================================================
