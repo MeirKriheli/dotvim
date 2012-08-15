@@ -24,6 +24,7 @@ Plugins
   fugitiv.evim_ - a Git wrapper so awesome, it should be illegal
 * vcscommand_ - CVS/SVN/SVK/git/hg/bzr integration plugin
 * ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder.
+* Syntastic_ - Syntax checking hacks for vim
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -31,6 +32,7 @@ Plugins
 .. _fugitive.vim: https://github.com/tpope/vim-fugitive
 .. _vcscommand: http://www.vim.org/scripts/script.php?script_id=90
 .. _ctrlp.vim: https://github.com/kien/ctrlp.vim
+.. _Syntastic: https://github.com/scrooloose/syntastic
 
 Settings
 ============
