@@ -38,6 +38,7 @@ Plugins
 * css3-mod_ - css syntax script to support css3
 * `NERD tree`_ - A tree explorer
 * ack.vim_ - Plugin for the Perl module / CLI script 'ack'
+* auto-pairs_ - Insert or delete brackets, parens, quotes in pair
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -57,6 +58,7 @@ Plugins
 .. _css3-mod: https://github.com/vim-scripts/css3-mod
 .. _NERD tree: https://github.com/scrooloose/nerdtree
 .. _ack.vim: https://github.com/mileszs/ack.vim
+.. _auto-pairs: https://github.com/jiangmiao/auto-pairs
 
 
 Settings
