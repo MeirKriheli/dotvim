@@ -194,7 +194,7 @@ au BufNewFile,BufRead *.less set filetype=less
 au BufNewFile,BufRead *.tpl set filetype=html
 
 " json
-au! BufRead,BufNewFile *.json set filetype=json 
+au! BufRead,BufNewFile *.json set filetype=json
 
 " jquery
 au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
@@ -233,3 +233,10 @@ autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+
+
+" ==================================================
+" SuperTab
+" ==================================================
+
+let g:SuperTabDefaultCompletionType = "context"

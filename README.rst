@@ -24,6 +24,7 @@ Features
 * Fuzzy file, buffer, mru, tag, etc finder
 * Task list
 * VCS plugins (git, hg, svn, etc)
+* Tab completion
 
 Usage
 ============
@@ -47,6 +48,7 @@ Plugins
 * fugitiv.evim_ - a Git wrapper so awesome, it should be illegal
 * vcscommand_ - CVS/SVN/SVK/git/hg/bzr integration plugin
 * ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder.
+* SuperTab_ - Insert mode completions with Tab
 * Syntastic_ - Syntax checking hacks for vim.
 * snipMate_ - implements some of TextMate's snippets features in Vim.
 * snipmate-snippets_ - snipmate default snippets
@@ -88,6 +90,7 @@ Plugins
 .. _json.vim: https://github.com/argent-smith/JSON.vim
 .. _TaskList: http://juan.axisym3.net/vim-plugins/#tasklist
 .. _MatchIt: http://www.vim.org/scripts/script.php?script_id=39
+.. _SuperTab: https://github.com/ervandew/supertab
 
 Shortcuts and re-Mappings
 ============================
