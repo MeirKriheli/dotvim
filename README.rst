@@ -21,7 +21,7 @@ Plugins
 * `pathogen.vim`_ - manage your runtimepath
 * Solarized_ - color scheme
 * MiniBufExplorer_ - Elegant buffer explorer
-  fugitiv.evim_ - a Git wrapper so awesome, it should be illegal
+* fugitiv.evim_ - a Git wrapper so awesome, it should be illegal
 * vcscommand_ - CVS/SVN/SVK/git/hg/bzr integration plugin
 * ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder.
 * Syntastic_ - Syntax checking hacks for vim.
@@ -29,6 +29,7 @@ Plugins
 * snipmate-snippets_ - snipmate default snippets
 * python-mode_ - Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box
 * DrawIt_ - Ascii drawing plugin: lines, ellipses, arrows, fills, and more!
+* vim-less_ - less support for vim
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -41,6 +42,7 @@ Plugins
 .. _snipmate-snippets : https://github.com/honza/snipmate-snippets
 .. _python-mode: https://github.com/klen/python-mode
 .. _DrawIt: https://github.com/vim-scripts/DrawIt
+.. _vim-less: https://github.com/vim-scripts/vim-less
 
 
 Settings

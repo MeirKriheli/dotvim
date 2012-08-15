@@ -34,3 +34,6 @@
 [submodule "bundle/drawit"]
 	path = bundle/drawit
 	url = https://github.com/vim-scripts/DrawIt.git
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = https://github.com/vim-scripts/vim-less
