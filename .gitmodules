@@ -61,3 +61,6 @@
 [submodule "bundle/json.vim"]
 	path = bundle/json.vim
 	url = https://github.com/argent-smith/JSON.vim.git
+[submodule "bundle/tasklist.vim"]
+	path = bundle/tasklist.vim
+	url = https://github.com/vim-scripts/TaskList.vim.git

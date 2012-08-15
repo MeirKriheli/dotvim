@@ -41,6 +41,7 @@ Plugins
 * auto-pairs_ - Insert or delete brackets, parens, quotes in pair
 * po.vim_ - Easier editing of GNU gettext PO files 
 * json.vim_ - A syntax highlighting file for JSON
+* TaskKist_ - Eclipse like task list
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -63,6 +64,7 @@ Plugins
 .. _auto-pairs: https://github.com/jiangmiao/auto-pairs
 .. _po.vim: http://vim.sourceforge.net/scripts/script.php?script_id=695
 .. _json.vim: https://github.com/argent-smith/JSON.vim
+.. _TaskList: http://juan.axisym3.net/vim-plugins/#tasklist
 
 Settings
 ============
