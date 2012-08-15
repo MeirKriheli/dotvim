@@ -27,6 +27,8 @@ if has("gui_running")
     set guifont=Liberation\ Mono\ 9" use this font
     colorscheme solarized
     set background=light
+    " Toolbars off (icons on top of the screen)
+    set guioptions-=T
 else
     colorscheme solarized
     set background=dark
