@@ -64,7 +64,7 @@ Plugins
 * auto-pairs_ - Insert or delete brackets, parens, quotes in pair
 * po.vim_ - Easier editing of GNU gettext PO files 
 * json.vim_ - A syntax highlighting file for JSON
-* TaskKist_ - Eclipse like task list
+* TaskList_ - Eclipse like task list
 * MatchIt_ - Extended % matching for HTML, LaTeX, and many other languages
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
@@ -105,6 +105,8 @@ Key                     Command
 ``<Leader>v``           Load `.vimrc`
 ----------------------  -----------------------------------------------------------------
 ``<Leader>V``           Activate changes to `.vimrc` (Make sure to save it before)
+----------------------  -----------------------------------------------------------------
+``<F2>``                Close current split (window)
 ----------------------  -----------------------------------------------------------------
 ``<F3>``                Toggle NERD tree
 ----------------------  -----------------------------------------------------------------

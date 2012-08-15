@@ -1,3 +1,5 @@
+" https://github.com/MeirKriheli/dotvim
+"
 " ==================================================
 " Shortcuts Documented
 " ==================================================
@@ -10,6 +12,7 @@
 " <F4> - Toggle search highlight
 " - and + - Resize horizontal splits
 " <M>< and <M>< - Resize vertical splits
+" <F2> - Close current split (window)
 " <F3> - Toggle NERD tree
 " <F4> - Toggle search highlight
 " <F5> - Toggle Tagbar
@@ -164,6 +167,10 @@ map <m-.> <C-W><
 " And for gnome terminal etc
 map , <C-W>>
 map . <C-W><
+
+" F2 close current split (window)
+noremap <F2> <Esc>:close<CR><Esc>
+
 
 " ==================================================
 " Right-to-Left (Hebrew etc) shortcuts
