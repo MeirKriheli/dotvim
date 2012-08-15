@@ -35,7 +35,7 @@ Plugins
 .. _vcscommand: http://www.vim.org/scripts/script.php?script_id=90
 .. _ctrlp.vim: https://github.com/kien/ctrlp.vim
 .. _Syntastic: https://github.com/scrooloose/syntastic
-.. _snipMate: Implements some of TextMate's snippets features in Vim
+.. _snipMate: https://github.com/garbas/vim-snipmate
 .. _snipmate-snippets : https://github.com/honza/snipmate-snippets
 
 Settings
