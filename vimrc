@@ -176,6 +176,9 @@ imap <F8> <Esc>:set invrevins<CR>a
 
 " define less filetype
 au BufNewFile,BufRead *.less set filetype=less
+"
+" make the smarty .tpl files html files for our purposes
+au BufNewFile,BufRead *.tpl set filetype=html
 
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
 autocmd Filetype xhtml setlocal ts=2 sw=2 expandtab
@@ -184,3 +187,7 @@ autocmd Filetype css setlocal ts=2 sw=2 expandtab
 autocmd Filetype less setlocal ts=2 sw=2 expandtab
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=4 sw=4 sts=0 noexpandtab
+
+" snipMate
+autocmd FileType python set ft=python.django " For SnipMate
+autocmd FileType html set ft=htmldjango.html " For SnipMate

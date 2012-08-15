@@ -26,6 +26,7 @@ Plugins
 * ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder.
 * Syntastic_ - Syntax checking hacks for vim.
 * snipMate_ - implements some of TextMate's snippets features in Vim.
+* snipmate-snippets_ - snipmate default snippets
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -35,6 +36,7 @@ Plugins
 .. _ctrlp.vim: https://github.com/kien/ctrlp.vim
 .. _Syntastic: https://github.com/scrooloose/syntastic
 .. _snipMate: Implements some of TextMate's snippets features in Vim
+.. _snipmate-snippets : https://github.com/honza/snipmate-snippets
 
 Settings
 ============
