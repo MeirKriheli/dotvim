@@ -30,6 +30,7 @@ Plugins
 * python-mode_ - Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box
 * DrawIt_ - Ascii drawing plugin: lines, ellipses, arrows, fills, and more!
 * vim-less_ - less support for vim
+* vim-surround_ - quoting/parenthesizing made simple
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -43,6 +44,7 @@ Plugins
 .. _python-mode: https://github.com/klen/python-mode
 .. _DrawIt: https://github.com/vim-scripts/DrawIt
 .. _vim-less: https://github.com/vim-scripts/vim-less
+.. _vim-surround: https://github.com/tpope/vim-surround
 
 
 Settings
