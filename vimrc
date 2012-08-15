@@ -18,12 +18,6 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-" Keep swap files out of the working dir
-" Adjust if needed in another dir
-set directory=~/tmp
-
-syntax on
-filetype indent plugin on
 
 " Color scheme and fonts
 if has("gui_running")
@@ -73,6 +67,15 @@ set tabstop=4           " numbers of spaces of tab character
 set shiftwidth=4        " numbers of spaces to (auto)indent
 set expandtab		" Tab to spaces by default
 set softtabstop=4
+
+" Keep swap files out of the working dir
+" Adjust if needed in another dir
+set directory=~/tmp
+
+syntax on
+filetype plugin on
+filetype indent plugin on
+
 
 " ==================================================
 " Basic Mappings
@@ -164,3 +167,20 @@ imap <F9> <Esc>:set invrl<CR>a
 map <F8>   :set invrevins<CR>
 " do it when in insert mode as well (and return to insert mode)
 imap <F8> <Esc>:set invrevins<CR>a
+
+
+
+" ==================================================
+" FileType and Indentation settings
+" ==================================================
+
+" define less filetype
+au BufNewFile,BufRead *.less set filetype=less
+
+autocmd Filetype html setlocal ts=2 sw=2 expandtab
+autocmd Filetype xhtml setlocal ts=2 sw=2 expandtab
+autocmd Filetype xml setlocal ts=2 sw=2 expandtab
+autocmd Filetype css setlocal ts=2 sw=2 expandtab
+autocmd Filetype less setlocal ts=2 sw=2 expandtab
+autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
+autocmd Filetype javascript setlocal ts=4 sw=4 sts=0 noexpandtab
