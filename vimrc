@@ -213,5 +213,15 @@ nmap <F5> :TagbarToggle<CR>
 " ==================================================
 " NERDTree
 " ==================================================
+
 let NERDTreeIgnore = ['\.pyc$', '\.pyo$']
 map <F3> :NERDTreeToggle<CR>
+
+" ==================================================
+" Omni Completion
+" ==================================================
+
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
