@@ -191,3 +191,10 @@ autocmd Filetype javascript setlocal ts=4 sw=4 sts=0 noexpandtab
 " snipMate
 autocmd FileType python set ft=python.django " For SnipMate
 autocmd FileType html set ft=htmldjango.html " For SnipMate
+
+
+" ==================================================
+" Tagbar Mapping
+" ==================================================
+
+nmap <F5> :TagbarToggle<CR>

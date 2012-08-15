@@ -32,6 +32,7 @@ Plugins
 * vim-less_ - less support for vim
 * vim-surround_ - quoting/parenthesizing made simple
 * Shebang_ - Make executable by setting the correct shebang and executable bit
+* Tagbar_ - Displays tags in a window, ordered by class etc
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -47,6 +48,8 @@ Plugins
 .. _vim-less: https://github.com/vim-scripts/vim-less
 .. _vim-surround: https://github.com/tpope/vim-surround
 .. _Shebang: https://github.com/vim-scripts/Shebang
+.. _Tagbar: http://majutsushi.github.com/tagbar/
+
 
 Settings
 ============
@@ -73,6 +76,8 @@ Key                     Command
 ``<Leader>V``           Activate changes to `.vimrc` (Make sure to save it before)
 ----------------------  -----------------------------------------------------------------
 ``<F4>``                Toggle search highlighting on/off, and show current value
+----------------------  -----------------------------------------------------------------
+``<F5>``                Toggle Tagbar
 ----------------------  -----------------------------------------------------------------
 ``<Leader>S``           Remove trailing whitespace
 ----------------------  -----------------------------------------------------------------

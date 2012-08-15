@@ -43,3 +43,6 @@
 [submodule "bundle/shebang"]
 	path = bundle/shebang
 	url = https://github.com/vim-scripts/Shebang.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
