@@ -1,6 +1,8 @@
 ============================================================
-.vim directory
+My vim setup
 ============================================================
+
+My vim IDE setup for python, html, css, javascript and more
 
 Usage
 ============
@@ -33,6 +35,7 @@ Plugins
 * vim-surround_ - quoting/parenthesizing made simple
 * Shebang_ - Make executable by setting the correct shebang and executable bit
 * Tagbar_ - Displays tags in a window, ordered by class etc
+* css3-mod_ - css syntax script to support css3 
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -49,6 +52,7 @@ Plugins
 .. _vim-surround: https://github.com/tpope/vim-surround
 .. _Shebang: https://github.com/vim-scripts/Shebang
 .. _Tagbar: http://majutsushi.github.com/tagbar/
+.. _css3-mod: https://github.com/vim-scripts/css3-mod
 
 
 Settings

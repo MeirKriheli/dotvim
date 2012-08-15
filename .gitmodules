@@ -46,3 +46,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/css3"]
+	path = bundle/css3
+	url = https://github.com/vim-scripts/css3-mod.git
