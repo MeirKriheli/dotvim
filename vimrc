@@ -62,6 +62,14 @@ set matchtime=3
 set sm                  " show matching braces, somewhat annoying...
 set mouse=a
 
+" Columns and lines
+set colorcolumn=80
+
+if has("gui_running")
+    set lines=75
+    set columns=180
+endif
+
 " Tab expanded to 4 spaces
 set tabstop=4           " numbers of spaces of tab character
 set shiftwidth=4        " numbers of spaces to (auto)indent
@@ -137,7 +145,7 @@ let g:miniBufExplModSelTarget = 1       " If using other explorers like TagList
 " Splits handling
 " ==================================================
 
-" Make these all work in insert mode 
+" Make these all work in insert mode
 imap <C-W> <C-O><C-W>
 
 " - and + to resize horizontal splits
@@ -162,7 +170,7 @@ map <F9>   :set invrl<CR>
 " do it when in insert mode as well (and return to insert mode)
 imap <F9> <Esc>:set invrl<CR>a
 
-" toggle reverse insertion 
+" toggle reverse insertion
 " this is useful for visual-order editing
 map <F8>   :set invrevins<CR>
 " do it when in insert mode as well (and return to insert mode)
