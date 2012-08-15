@@ -64,3 +64,6 @@
 [submodule "bundle/tasklist.vim"]
 	path = bundle/tasklist.vim
 	url = https://github.com/vim-scripts/TaskList.vim.git
+[submodule "bundle/jinja"]
+	path = bundle/jinja
+	url = https://github.com/vim-scripts/Jinja.git
