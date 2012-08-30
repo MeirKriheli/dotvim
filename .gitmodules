@@ -76,6 +76,3 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule "vim-powerline"]
-	path = vim-powerline
-	url = https://github.com/Lokaltog/vim-powerline.git
