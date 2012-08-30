@@ -26,16 +26,16 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 
+" ==================================================
 " Color scheme and fonts
+" ==================================================
+colorscheme solarized
+set background=dark
+
 if has("gui_running")
-    set guifont=Liberation\ Mono\ 9" use this font
-    colorscheme solarized
-    set background=light
-    " Toolbars off (icons on top of the screen)
-    set guioptions-=T
+    set guifont=Liberation\ Mono\ 9
+    set guioptions-=T   " Toolbars off (icons on top of the screen)
 else
-    colorscheme solarized
-    set background=dark
     set t_Co=256
     "let g:solarized_termcolors=256
     let g:solarized_termtrans=1
