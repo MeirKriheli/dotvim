@@ -16,7 +16,7 @@ Features
 * Highlight current row and color column 80
 * Extra syntax highlighting (css3, less, json, jinja, jquery etc)
 * Syntax checking
-* Snippets 
+* Snippets
 * Python completion, refactoring, navigation and docs
 * Quotes, parens etc pair, surround
 * Extended pair matching with %
@@ -120,9 +120,9 @@ Key                     Command
 ----------------------  -----------------------------------------------------------------
 ``<CTRL>arrow``         Window movement commands (mapped via MiniBufExplorer settings)
 ----------------------  -----------------------------------------------------------------
-``<C-TAB>``             Next buffer in current window (via MiniBufExplorer settings)
+``<CTRL-TAB>``          Next buffer in current window (via MiniBufExplorer settings)
 ----------------------  -----------------------------------------------------------------
-``<C-S-TAB>``           Previous buffer in current window (via MiniBufExplorer settings)
+``<CTRL-SHIFT-TAB>``    Previous buffer in current window (via MiniBufExplorer settings)
 ----------------------  -----------------------------------------------------------------
 ``-``, ``+``            Resize horizontal splits
 ----------------------  -----------------------------------------------------------------
