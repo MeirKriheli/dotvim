@@ -36,7 +36,7 @@ else
     colorscheme solarized
     set background=dark
     set t_Co=256
-    let g:solarized_termcolors=256
+    "let g:solarized_termcolors=256
     let g:solarized_termtrans=1
 endif
 
@@ -49,7 +49,7 @@ set textwidth=80        " Try this out to see how textwidth helps
 set ch=2                " Make command line two lines high
 set ls=2                " allways show status line
 set scrolloff=3         " keep 3 lines when scrolling
-set cursorline        " have a line indicate the cursor location
+set cursorline          " have a line indicate the cursor location
 set cindent             " cindent
 set autoindent          " always set autoindenting on
 set showcmd             " display incomplete commands
@@ -145,7 +145,7 @@ match WhitespaceEOL /\s\+$/
 let g:miniBufExplMapWindowNavVim = 1    " <CTRL> + [hjkl] window movement commands
 let g:miniBufExplMapWindowNavArrows = 1 " <CTRL> + Arrow Keys window movement commands
 let g:miniBufExplMapCTabSwitchBufs = 1  " <C-TAB> and <C-S-TAB> next or previous buffer in the current window
-let g:miniBufExplUseSingleClick = 1     " Single click on tabs to goto the selected buffer
+"let g:miniBufExplUseSingleClick = 1     " Single click on tabs to goto the selected buffer
 let g:miniBufExplModSelTarget = 1       " If using other explorers like TagList
 
 
@@ -247,3 +247,10 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 " ==================================================
 
 let g:SuperTabDefaultCompletionType = "context"
+
+
+" ==================================================
+" CtrlP
+" ==================================================
+
+set wildignore+=*.so,*.swp,*.zip,*.pyc,*.pyo
