@@ -38,7 +38,7 @@ bundles::
     git submodule init
     git submodule update
 
-To add or override settings, place them in `~/.vim/vimrc.local`.
+To add or override settings, place them in ``~/.vim/vimrc.local``.
 
 Plugins
 ============
