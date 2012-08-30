@@ -58,6 +58,7 @@ set cindent             " cindent
 set autoindent          " always set autoindenting on
 set showcmd             " display incomplete commands
 set ruler               " show the cursor position all the time
+set rulerformat=%30(%=\:b%n%y%m%r%w\ %l,%c%V\ %P%)
 set visualbell
 set nobackup            " do not keep a backup file
 set number              " show line numbers
