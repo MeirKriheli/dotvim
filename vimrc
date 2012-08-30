@@ -75,12 +75,15 @@ set matchtime=3
 set sm                  " show matching braces, somewhat annoying...
 set mouse=a
 
-set statusline=%<%f\ " Filename
-set statusline+=%w%h%m%r " Options
+set statusline=%<%f\                     " Filename
+set statusline+=%w%h%m%r                 " Options
 set statusline+=%{fugitive#statusline()} " Git Hotness
-set statusline+=\ [%{&ff}/%Y] " filetype
-set statusline+=\ [%{getcwd()}] " current dir
-set statusline+=%=%-14.(%l,%c%V%)\ %p%% " Right aligned file nav info
+set statusline+=\ [%{&ff}/%Y]            " filetype
+set statusline+=\ [%{getcwd()}]          " current dir
+set statusline+=%=%-14.(%l,%c%V%)\ %p%%  " Right aligned file nav info
+
+set wildmenu                             " show list instead of just completing
+set wildmode=list:longest,full           " command <Tab> completion, list matches, then longest common part, then all.
 
 
 " Columns and lines
@@ -94,7 +97,7 @@ endif
 " Tab expanded to 4 spaces
 set tabstop=4           " numbers of spaces of tab character
 set shiftwidth=4        " numbers of spaces to (auto)indent
-set expandtab		" Tab to spaces by default
+set expandtab		    " Tab to spaces by default
 set softtabstop=4
 
 " Keep swap files out of the working dir
