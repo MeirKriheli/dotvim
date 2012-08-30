@@ -41,6 +41,9 @@ else
     let g:solarized_termtrans=1
 endif
 
+let g:solarized_contrast="high"
+let g:solarized_visibility="high"
+
 
 " ==================================================
 " Basic Settings
