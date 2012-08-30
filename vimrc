@@ -19,6 +19,7 @@
 " <F9> - Toggle logical (RTL, e.g: Hebrew) editing
 " <F8> - Toggle visual (RTL, e.g: Hebrew) editing
 
+set nocompatible
 
 " Make sure this pathogen is taken into account
 call pathogen#runtime_append_all_bundles()
