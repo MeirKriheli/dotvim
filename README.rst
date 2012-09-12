@@ -69,7 +69,6 @@ Plugins
 * MatchIt_ - Extended % matching for HTML, LaTeX, and many other languages
 * vim-powerline_ - The ultimate vim statusline utility
 * tabular_ - text filtering and alignment
-* po.vim_ - Easier editing of GNU gettext PO files
 
 .. _pathogen.vim: https://github.com/tpope/vim-pathogen
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -97,7 +96,6 @@ Plugins
 .. _SuperTab: https://github.com/ervandew/supertab
 .. _vim-powerline: https://github.com/Lokaltog/vim-powerline
 .. _tabular: https://github.com/godlygeek/tabular
-.. _po.vim: https://github.com/vim-scripts/po.vim--Jelenak
 
 Shortcuts and re-Mappings
 ============================
