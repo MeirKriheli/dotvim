@@ -82,3 +82,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular
+[submodule "bundle/po-vim"]
+	path = bundle/po-vim
+	url = https://github.com/vim-scripts/po.vim--Jelenak.git
