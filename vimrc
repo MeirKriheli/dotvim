@@ -85,7 +85,7 @@ set statusline+=%=%-14.(%l,%c%V%)\ %p%%  " Right aligned file nav info
 
 set wildmenu                             " show list instead of just completing
 set wildmode=list:longest,full           " command <Tab> completion, list matches, then longest common part, then all.
-
+set completeopt=menu                     " Just show the menu upon completion (faster)
 
 " Columns and lines
 set colorcolumn=80
