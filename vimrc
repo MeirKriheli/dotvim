@@ -276,3 +276,11 @@ set wildignore+=*.so,*.swp,*.zip,*.pyc,*.pyo
 if filereadable(expand("~/.vim/vimrc.local"))
     source ~/.vim/vimrc.local
 endif
+
+" ==================================================
+" Ack
+" ==================================================
+
+nmap g/ :Ack<space>
+nmap g* :Ack -w <C-R><C-W><space>
+nmap ga :AckAdd!<space>
