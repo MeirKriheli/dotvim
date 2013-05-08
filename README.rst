@@ -40,6 +40,12 @@ bundles::
 
 To add or override settings, place them in ``~/.vim/vimrc.local``.
 
+To update submodules in the future::
+
+    cd ~/.vim
+    git submodule foreach git pull
+
+
 Plugins
 ============
 
