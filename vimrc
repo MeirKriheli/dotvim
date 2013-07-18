@@ -159,11 +159,33 @@ match WhitespaceEOL /\s\+$/
 " MiniBufExplorer settings
 " ==================================================
 
-let g:miniBufExplMapWindowNavVim = 1    " <CTRL> + [hjkl] window movement commands
-let g:miniBufExplMapWindowNavArrows = 1 " <CTRL> + Arrow Keys window movement commands
-let g:miniBufExplMapCTabSwitchBufs = 1  " <C-TAB> and <C-S-TAB> next or previous buffer in the current window
 "let g:miniBufExplUseSingleClick = 1     " Single click on tabs to goto the selected buffer
 let g:miniBufExplModSelTarget = 1       " If using other explorers like TagList
+
+" ==================================================
+" Window navigation
+" ==================================================
+
+" control + vim direction key to navigate windows
+noremap <C-J> <C-W>j
+noremap <C-K> <C-W>k
+noremap <C-H> <C-W>h
+noremap <C-L> <C-W>l
+
+" control + arrow key to navigate windows
+noremap <C-Down> <C-W>j
+noremap <C-Up> <C-W>k
+noremap <C-Left> <C-W>h
+noremap <C-Right> <C-W>l
+
+" <C-TAB> and <C-S-TAB> to switch buffers " in the current window
+noremap <C-TAB> :MBEbn<CR>
+noremap <C-S-TAB> :MBEbp<CR>
+"
+" Or, in MRU fashion
+"
+"noremap <C-TAB> :MBEbf<CR>
+"noremap <C-S-TAB> :MBEbb<CR>
 
 
 " ==================================================
