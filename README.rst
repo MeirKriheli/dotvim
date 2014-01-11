@@ -29,6 +29,7 @@ Features
 Usage
 ============
 
+
 The following commands will clone the repo, symlink `~/.vimrc` and update the
 bundles::
 
@@ -45,6 +46,15 @@ To update submodules in the future::
     cd ~/.vim
     git submodule foreach git pull
 
+powerline instead of vim-powerline
+------------------------------------
+
+Previous configuration used `vim-powerline`, which is now changed to
+`powerline`. If you still have `vim-powerline` installed, make sure to remove
+that submoudle (following steps require git 1.8.3 and up):
+
+* `git submodule deinit bundle/powerline`
+* `git rm bundle/powerline`
 
 Plugins
 ============
@@ -52,7 +62,7 @@ Plugins
 * `pathogen.vim`_ - manage your runtimepath
 * Solarized_ - color scheme
 * MiniBufExplorer_ - Elegant buffer explorer
-* fugitiv.evim_ - a Git wrapper so awesome, it should be illegal
+* fugitive.vim_ - a Git wrapper so awesome, it should be illegal
 * vcscommand_ - CVS/SVN/SVK/git/hg/bzr integration plugin
 * ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder.
 * SuperTab_ - Insert mode completions with Tab
