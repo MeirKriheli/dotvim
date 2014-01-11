@@ -227,6 +227,10 @@ map <F8>   :set invrevins<CR>
 " do it when in insert mode as well (and return to insert mode)
 imap <F8> <Esc>:set invrevins<CR>a
 
+" ==================================================
+" Powerline settings
+" ==================================================
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 
 " ==================================================
