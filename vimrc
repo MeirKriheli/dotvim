@@ -75,6 +75,8 @@ set matchtime=3
 set sm                  " show matching braces, somewhat annoying...
 set mouse=a
 set history=500         " larger history
+set noshowmode          " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+
 
 set statusline=%<%f\                     " Filename
 set statusline+=%w%h%m%r                 " Options
@@ -226,11 +228,6 @@ imap <F9> <Esc>:set invrl<CR>a
 map <F8>   :set invrevins<CR>
 " do it when in insert mode as well (and return to insert mode)
 imap <F8> <Esc>:set invrevins<CR>a
-
-" ==================================================
-" Powerline settings
-" ==================================================
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 
 " ==================================================
