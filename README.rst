@@ -4,6 +4,13 @@ My vim setup
 
 My vim IDE setup for python, html, css, javascript, gettext and more
 
+.. important::
+    `vim-powerline` was removed from submoudles as it's better to install it
+    standalone (since it can be used for tmux, bash, etc.). Install it from
+    distro packages or with `pip`, for more info see
+    https://powerline.readthedocs.org/en/latest/overview.html#installation
+
+
 Features
 ============
 
@@ -49,12 +56,11 @@ To update submodules in the future::
 powerline instead of vim-powerline
 ------------------------------------
 
-Previous configuration used `vim-powerline`, which is now changed to
-`powerline`. If you still have `vim-powerline` installed, make sure to remove
-that submoudle (following steps require git 1.8.3 and up):
+Previous configuration used `vim-powerline`. Since `powerline` now includes
+support for shells, etc, it's better to install it from distro packages
+or with `pip`, for more info, see
+https://powerline.readthedocs.org/en/latest/overview.html#installation
 
-* `git submodule deinit bundle/powerline`
-* `git rm bundle/powerline`
 
 Plugins
 ============
