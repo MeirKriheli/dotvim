@@ -296,11 +296,6 @@ let g:SuperTabDefaultCompletionType = "context"
 set wildignore+=*.so,*.swp,*.zip,*.pyc,*.pyo
 let g:ctrlp_custom_ignore = 'node_modules\|bower_components'
 
-" Allow overrides via ~/.vim/vimrc.local
-if filereadable(expand("~/.vim/vimrc.local"))
-    source ~/.vim/vimrc.local
-endif
-
 " ==================================================
 " Ack
 " ==================================================
@@ -344,3 +339,8 @@ autocmd BufWritePre,FileWritePre    *.gpg let &sh=shsave
 autocmd BufWritePost,FileWritePost  *.gpg silent u
 autocmd BufWritePost,FileWritePost  *.gpg set nobin
 augroup END
+
+" Allow overrides via ~/.vim/vimrc.local
+if filereadable(expand("~/.vim/vimrc.local"))
+    source ~/.vim/vimrc.local
+endif
