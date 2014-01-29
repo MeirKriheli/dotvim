@@ -294,6 +294,7 @@ let g:SuperTabDefaultCompletionType = "context"
 " ==================================================
 
 set wildignore+=*.so,*.swp,*.zip,*.pyc,*.pyo
+let g:ctrlp_custom_ignore = 'node_modules\|bower_components'
 
 " Allow overrides via ~/.vim/vimrc.local
 if filereadable(expand("~/.vim/vimrc.local"))
