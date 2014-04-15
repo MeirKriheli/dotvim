@@ -276,6 +276,7 @@ map <F3> :NERDTreeToggle<CR>
 " Omni Completion
 " ==================================================
 
+set omnifunc=syntaxcomplete#Complete
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
