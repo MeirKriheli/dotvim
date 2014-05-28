@@ -341,6 +341,19 @@ autocmd BufWritePost,FileWritePost  *.gpg silent u
 autocmd BufWritePost,FileWritePost  *.gpg set nobin
 augroup END
 
+" Fix meta key in terminal
+" fix meta-keys which generate <Esc>a .. <Esc>z
+let c='a'
+while c <= 'z'
+  exec "set <A-".c.">=\e".c
+  exec "imap \e".c." <A-".c.">"
+  let c = nr2char(1+char2nr(c))
+endw
+
+set timeout ttimeoutlen=50
+set timeout ttimeoutlen=50
+
+
 " Allow overrides via ~/.vim/vimrc.local
 if filereadable(expand("~/.vim/vimrc.local"))
     source ~/.vim/vimrc.local
