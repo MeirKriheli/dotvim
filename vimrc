@@ -358,3 +358,6 @@ set timeout ttimeoutlen=50
 if filereadable(expand("~/.vim/vimrc.local"))
     source ~/.vim/vimrc.local
 endif
+
+" airline, use powerline fonts
+let g:airline_powerline_fonts = 1
