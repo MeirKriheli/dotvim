@@ -91,6 +91,3 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
-[submodule "/home/meir/.vim/bundle/tmuxline.vim"]
-	path = /home/meir/.vim/bundle/tmuxline.vim
-	url = https://github.com/edkolev/tmuxline.vim
