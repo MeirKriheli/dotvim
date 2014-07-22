@@ -74,6 +74,7 @@ set showmatch
 set matchtime=3
 set sm                  " show matching braces, somewhat annoying...
 set mouse=a
+set ttymouse=xterm2
 set history=500         " larger history
 set noshowmode          " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 
