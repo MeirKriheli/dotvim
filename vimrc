@@ -362,3 +362,7 @@ endif
 
 " airline, use powerline fonts
 let g:airline_powerline_fonts = 1
+
+" No modlines for security
+set modelines=0
+set nomodeline
