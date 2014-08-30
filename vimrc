@@ -65,6 +65,7 @@ Plugin 'nono/vim-handlebars'
 Plugin 'powerman/vim-plugin-viewdoc'
 Plugin 'bling/vim-airline'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'tomtom/tcomment_vim'
 
 call vundle#end()            " required
 

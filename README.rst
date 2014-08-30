@@ -26,6 +26,7 @@ Features
 * Task list
 * VCS plugins (git, hg, svn, etc)
 * Tab completion
+* Commenting
 
 Usage
 ============
@@ -83,6 +84,8 @@ Plugins
 * vim-airline_ - Light weight statusline utility
 * tabular_ - text filtering and alignment
 * vim-plugin-viewdoc_ - Flexible viewer for any documentation
+* tcomment_vim_ - An extensible & universal comment vim-plugin that also
+  handles embedded filetypes
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
 .. _MiniBufExplorer: https://github.com/fholgado/minibufexpl.vim
@@ -111,6 +114,7 @@ Plugins
 .. _vim-airline: https://github.com/bling/vim-airline
 .. _tabular: https://github.com/godlygeek/tabular
 .. _vim-plugin-viewdoc: https://github.com/powerman/vim-plugin-viewdoc
+.. _tcomment_vim: https://github.com/tomtom/tcomment_vim
 
 Shortcuts and re-Mappings
 ============================
