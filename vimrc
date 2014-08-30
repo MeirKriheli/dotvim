@@ -66,6 +66,7 @@ Plugin 'powerman/vim-plugin-viewdoc'
 Plugin 'bling/vim-airline'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'davidhalter/jedi-vim'
 
 call vundle#end()            " required
 
@@ -120,6 +121,7 @@ set mouse=a
 set ttymouse=xterm2
 set history=500         " larger history
 set noshowmode          " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+set timeout ttimeoutlen=50
 
 
 set statusline=%<%f\                     " Filename
@@ -321,7 +323,7 @@ map <F3> :NERDTreeToggle<CR>
 " ==================================================
 
 set omnifunc=syntaxcomplete#Complete
-autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType python set omnifunc=python3complete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
@@ -385,8 +387,10 @@ autocmd BufWritePost,FileWritePost  *.gpg silent u
 autocmd BufWritePost,FileWritePost  *.gpg set nobin
 augroup END
 
+" ==================================================
 " Fix meta key in terminal
 " fix meta-keys which generate <Esc>a .. <Esc>z
+" ==================================================
 let c='a'
 while c <= 'z'
   exec "set <A-".c.">=\e".c
@@ -394,18 +398,26 @@ while c <= 'z'
   let c = nr2char(1+char2nr(c))
 endw
 
-set timeout ttimeoutlen=50
-set timeout ttimeoutlen=50
 
+" ==================================================
+" airline, use powerline fonts
+" ==================================================
+let g:airline_powerline_fonts = 1
 
+" ==================================================
+" No modlines for security
+" ==================================================
+set modelines=0
+set nomodeline
+
+" ==================================================
+" Disable python-more rope completion, using Jedi
+" ==================================================
+let g:pymode_rope_completion = 0
+
+" ==================================================
 " Allow overrides via ~/.vim/vimrc.local
+" ==================================================
 if filereadable(expand("~/.vim/vimrc.local"))
     source ~/.vim/vimrc.local
 endif
-
-" airline, use powerline fonts
-let g:airline_powerline_fonts = 1
-
-" No modlines for security
-set modelines=0
-set nomodeline
