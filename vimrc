@@ -22,6 +22,52 @@
 set nocompatible
 
 " ==================================================
+" Vundle setup
+" ==================================================
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'fholgado/minibufexpl.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'garbas/vim-snipmate'
+Plugin 'tomtom/tlib_vim'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'klen/python-mode'
+Plugin 'vim-scripts/DrawIt'
+Plugin 'vim-scripts/vim-less'
+Plugin 'tpope/vim-surround'
+Plugin 'vim-scripts/Shebang'
+Plugin 'majutsushi/tagbar'
+Plugin 'vim-scripts/css3-mod'
+Plugin 'scrooloose/nerdtree'
+Plugin 'mileszs/ack.vim'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'argent-smith/JSON.vim'
+Plugin 'vim-scripts/TaskList.vim'
+Plugin 'vim-scripts/Jinja'
+Plugin 'vim-scripts/jQuery'
+Plugin 'vim-scripts/matchit.zip'
+Plugin 'ervandew/supertab'
+Plugin 'godlygeek/tabular'
+Plugin 'vim-scripts/po.vim--Jelenak'
+Plugin 'honza/vim-snippets'
+Plugin 'nono/vim-handlebars'
+Plugin 'powerman/vim-plugin-viewdoc'
+Plugin 'bling/vim-airline'
+Plugin 'editorconfig/editorconfig-vim'
+
+call vundle#end()            " required
+
+" ==================================================
 " Color scheme and fonts
 " ==================================================
 colorscheme solarized

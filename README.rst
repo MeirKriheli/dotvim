@@ -53,15 +53,6 @@ To update submodules in the future::
     cd ~/.vim
     git submodule foreach git pull
 
-powerline instead of vim-powerline
-------------------------------------
-
-Previous configuration used `vim-powerline`. Since `powerline` now includes
-support for shells, etc, it's better to install it from distro packages
-or with `pip`, for more info, see
-https://powerline.readthedocs.org/en/latest/overview.html#installation
-
-
 Plugins
 ============
 
@@ -69,7 +60,6 @@ Plugins
 * Solarized_ - color scheme
 * MiniBufExplorer_ - Elegant buffer explorer
 * fugitive.vim_ - a Git wrapper so awesome, it should be illegal
-* vcscommand_ - CVS/SVN/SVK/git/hg/bzr integration plugin
 * ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder.
 * SuperTab_ - Insert mode completions with Tab
 * Syntastic_ - Syntax checking hacks for vim.
@@ -89,7 +79,7 @@ Plugins
 * json.vim_ - A syntax highlighting file for JSON
 * TaskList_ - Eclipse like task list
 * MatchIt_ - Extended % matching for HTML, LaTeX, and many other languages
-* vim-powerline_ - The ultimate vim statusline utility
+* vim-airline_ - Light weight statusline utility
 * tabular_ - text filtering and alignment
 * vim-plugin-viewdoc_ - Flexible viewer for any documentation
 
@@ -117,7 +107,7 @@ Plugins
 .. _TaskList: http://juan.axisym3.net/vim-plugins/#tasklist
 .. _MatchIt: http://www.vim.org/scripts/script.php?script_id=39
 .. _SuperTab: https://github.com/ervandew/supertab
-.. _vim-powerline: https://github.com/Lokaltog/vim-powerline
+.. _vim-airline: https://github.com/bling/vim-airline
 .. _tabular: https://github.com/godlygeek/tabular
 .. _vim-plugin-viewdoc: https://github.com/powerman/vim-plugin-viewdoc
 
