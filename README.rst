@@ -4,12 +4,6 @@ My vim setup
 
 My vim IDE setup for python, html, css, javascript, gettext and more
 
-.. important::
-    `vim-powerline` was removed from submoudles as it's better to install it
-    standalone (since it can be used for tmux, bash, etc.). Install it from
-    distro packages or with `pip`, for more info see
-    https://powerline.readthedocs.org/en/latest/overview.html#installation
-
 
 Features
 ============
@@ -43,15 +37,21 @@ bundles::
     git clone https://github.com/MeirKriheli/dotvim.git ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
     cd ~/.vim
-    git submodule init
-    git submodule update
+    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+Install plugins from the command line::
+
+    vim +PluginInstall +qall
 
 To add or override settings, place them in ``~/.vim/vimrc.local``.
 
-To update submodules in the future::
+To update submodules in the future, when you have vim running::
 
-    cd ~/.vim
-    git submodule foreach git pull
+    :PluginUpdate
+
+For more info::
+
+    :h Vundle
 
 Plugins
 ============
