@@ -21,11 +21,6 @@
 
 set nocompatible
 
-" Make sure this pathogen is taken into account
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
-
-
 " ==================================================
 " Color scheme and fonts
 " ==================================================
