@@ -45,7 +45,8 @@ Install plugins from the command line::
 
 To add or override settings, place them in ``~/.vim/vimrc.local``.
 
-To update submodules in the future, when you have vim running::
+To update submodules in the future, when you have vim running, source vimrc to
+make sure plugins list is updated (or restart vim)::
 
     :PluginUpdate
 
