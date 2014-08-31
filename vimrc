@@ -68,6 +68,7 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'ludovicchabant/vim-lawrencium'
+Plugin 'othree/javascript-libraries-syntax.vim'
 
 call vundle#end()            " required
 

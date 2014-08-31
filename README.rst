@@ -86,7 +86,8 @@ Plugins
 * tabular_ - text filtering and alignment
 * vim-plugin-viewdoc_ - Flexible viewer for any documentation
 * tcomment_vim_ - An extensible & universal comment vim-plugin that also
-  handles embedded filetypes
+  handles embedded filetypesludovicchabant/vim-lawrencium
+* javascript-libraries-syntax.vim_  - Syntax for JavaScript libraries
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
 .. _MiniBufExplorer: https://github.com/fholgado/minibufexpl.vim
@@ -117,6 +118,7 @@ Plugins
 .. _tabular: https://github.com/godlygeek/tabular
 .. _vim-plugin-viewdoc: https://github.com/powerman/vim-plugin-viewdoc
 .. _tcomment_vim: https://github.com/tomtom/tcomment_vim
+.. _javascript-libraries-syntax.vim: https://github.com/othree/javascript-libraries-syntax.vim
 
 Shortcuts and re-Mappings
 ============================
