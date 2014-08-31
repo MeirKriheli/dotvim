@@ -24,7 +24,7 @@ Features
 * ASCII drawing
 * Fuzzy file, buffer, mru, tag, etc finder
 * Task list
-* VCS plugins (git, hg, svn, etc)
+* VCS plugins (Fugitive, Lawrencium)
 * Tab completion
 * Commenting
 
@@ -61,7 +61,8 @@ Plugins
 * Solarized_ - color scheme
 * MiniBufExplorer_ - Elegant buffer explorer
 * vim-distpach_ - asynchronous build and test dispatcher
-* fugitive.vim_ - a Git wrapper so awesome, it should be illegal
+* Fugitive_ - a Git wrapper so awesome, it should be illegal
+* Lawrencium_ - Mercurial wrapper for Vim, inspired by Tim Pope's Fugitive
 * ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder.
 * SuperTab_ - Insert mode completions with Tab
 * Syntastic_ - Syntax checking hacks for vim.
@@ -89,7 +90,8 @@ Plugins
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
 .. _MiniBufExplorer: https://github.com/fholgado/minibufexpl.vim
-.. _fugitive.vim: https://github.com/tpope/vim-fugitive
+.. _Fugitive: https://github.com/tpope/vim-fugitive
+.. _Lawrencium: https://github.com/ludovicchabant/vim-lawrencium
 .. _vim-distpach: https://github.com/tpope/vim-dispatch
 .. _vcscommand: http://www.vim.org/scripts/script.php?script_id=90
 .. _ctrlp.vim: https://github.com/kien/ctrlp.vim

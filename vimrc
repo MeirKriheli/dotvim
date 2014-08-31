@@ -67,6 +67,7 @@ Plugin 'bling/vim-airline'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'ludovicchabant/vim-lawrencium'
 
 call vundle#end()            " required
 
