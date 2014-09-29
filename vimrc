@@ -44,7 +44,6 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'klen/python-mode'
 Plugin 'vim-scripts/DrawIt'
-Plugin 'vim-scripts/vim-less'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-scripts/Shebang'
 Plugin 'majutsushi/tagbar'
@@ -69,6 +68,8 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'ludovicchabant/vim-lawrencium'
 Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'groenewege/vim-less'
+
 
 call vundle#end()            " required
 
