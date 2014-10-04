@@ -88,6 +88,7 @@ Plugins
 * tcomment_vim_ - An extensible & universal comment vim-plugin that also
   handles embedded filetypesludovicchabant/vim-lawrencium
 * javascript-libraries-syntax.vim_  - Syntax for JavaScript libraries
+* vim-unimpaired_ - pairs of handy bracket mappings
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
 .. _MiniBufExplorer: https://github.com/fholgado/minibufexpl.vim
@@ -119,6 +120,7 @@ Plugins
 .. _vim-plugin-viewdoc: https://github.com/powerman/vim-plugin-viewdoc
 .. _tcomment_vim: https://github.com/tomtom/tcomment_vim
 .. _javascript-libraries-syntax.vim: https://github.com/othree/javascript-libraries-syntax.vim
+.. _vim-unimpaired: https://github.com/tpope/vim-unimpaired 
 
 Shortcuts and re-Mappings
 ============================

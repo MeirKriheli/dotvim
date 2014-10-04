@@ -69,6 +69,7 @@ Plugin 'davidhalter/jedi-vim'
 Plugin 'ludovicchabant/vim-lawrencium'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'groenewege/vim-less'
+Plugin 'tpope/vim-unimpaired'
 
 
 call vundle#end()            " required
