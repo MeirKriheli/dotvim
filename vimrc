@@ -73,6 +73,7 @@ Plugin 'groenewege/vim-less'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'pangloss/vim-javascript'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'AndrewRadev/splitjoin.vim'
 
 call vundle#end()            " required
 

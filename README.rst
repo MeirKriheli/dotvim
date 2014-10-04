@@ -93,6 +93,8 @@ Plugins
 * javascript-libraries-syntax.vim_  - Syntax for JavaScript libraries
 * vim-unimpaired_ - pairs of handy bracket mappings
 * vim-multiple-cursors_ - True Sublime Text style multiple selections for Vim
+* splitjoin.vim_ - A vim plugin that simplifies the transition between multiline
+  and single-line code
 
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -129,6 +131,7 @@ Plugins
 .. _vim-javascript: https://github.com/pangloss/vim-javascript
 .. _vim-javascript-syntax: https://github.com/jelera/vim-javascript-syntax
 .. _vim-multiple-cursors: https://github.com/terryma/vim-multiple-cursors
+.. _splitjoin.vim: https://github.com/AndrewRadev/splitjoin.vim
 
 Shortcuts and re-Mappings
 ============================
