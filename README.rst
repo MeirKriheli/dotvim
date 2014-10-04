@@ -10,6 +10,7 @@ Features
 
 * `vimrc` handling
 * Incremental and smart case search.
+* Sublime Text style multiple selections 
 * Trailing whitespace highlightling and cleaning shortcut.
 * Logical and Visual layout (for Right-To-Left lanaguegs) editing.
 * Tabs expand to 4 spaces by default
@@ -19,6 +20,8 @@ Features
 * Syntax checking
 * Snippets
 * Python completion, refactoring, navigation and docs
+* Javacript support (highlighting, libraries syntax highligting)
+* Go support
 * Quotes, parens etc pair, surround
 * Extended pair matching with %
 * ASCII drawing
@@ -95,6 +98,7 @@ Plugins
 * vim-multiple-cursors_ - True Sublime Text style multiple selections for Vim
 * splitjoin.vim_ - A vim plugin that simplifies the transition between multiline
   and single-line code
+* vim-go_ - Go development plugin for Vim 
 
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -132,6 +136,8 @@ Plugins
 .. _vim-javascript-syntax: https://github.com/jelera/vim-javascript-syntax
 .. _vim-multiple-cursors: https://github.com/terryma/vim-multiple-cursors
 .. _splitjoin.vim: https://github.com/AndrewRadev/splitjoin.vim
+.. _vim-go: https://github.com/fatih/vim-go
+
 
 Shortcuts and re-Mappings
 ============================
