@@ -71,7 +71,7 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'groenewege/vim-less'
 Plugin 'tpope/vim-unimpaired'
-
+Bundle "pangloss/vim-javascript"
 
 call vundle#end()            " required
 
