@@ -87,6 +87,7 @@ Plugins
 * vim-plugin-viewdoc_ - Flexible viewer for any documentation
 * tcomment_vim_ - An extensible & universal comment vim-plugin that also
   handles embedded filetypesludovicchabant/vim-lawrencium
+* vim-javascript-syntax_ - Enhanced javascript syntax file for Vim
 * javascript-libraries-syntax.vim_  - Syntax for JavaScript libraries
 * vim-unimpaired_ - pairs of handy bracket mappings
 
@@ -121,10 +122,11 @@ Plugins
 .. _tcomment_vim: https://github.com/tomtom/tcomment_vim
 .. _javascript-libraries-syntax.vim: https://github.com/othree/javascript-libraries-syntax.vim
 .. _vim-unimpaired: https://github.com/tpope/vim-unimpaired 
+.. _vim-javascript-syntax: https://github.com/jelera/vim-javascript-syntax
 
 Shortcuts and re-Mappings
 ============================
-
+:Err
 ======================  =================================================================
 Key                     Command
 ======================  =================================================================
