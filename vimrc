@@ -71,7 +71,8 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'groenewege/vim-less'
 Plugin 'tpope/vim-unimpaired'
-Bundle "pangloss/vim-javascript"
+Plugin 'pangloss/vim-javascript'
+Plugin 'terryma/vim-multiple-cursors'
 
 call vundle#end()            " required
 

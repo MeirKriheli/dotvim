@@ -87,10 +87,13 @@ Plugins
 * vim-plugin-viewdoc_ - Flexible viewer for any documentation
 * tcomment_vim_ - An extensible & universal comment vim-plugin that also
   handles embedded filetypesludovicchabant/vim-lawrencium
-* vim-javascript_ - Vastly improved Javascript indentation and syntax support in Vim.
+* vim-javascript_ - Vastly improved Javascript indentation and syntax support in
+  Vim.
 * vim-javascript-syntax_ - Enhanced javascript syntax file for Vim
 * javascript-libraries-syntax.vim_  - Syntax for JavaScript libraries
 * vim-unimpaired_ - pairs of handy bracket mappings
+* vim-multiple-cursors_ - True Sublime Text style multiple selections for Vim
+
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
 .. _MiniBufExplorer: https://github.com/fholgado/minibufexpl.vim
@@ -125,6 +128,7 @@ Plugins
 .. _vim-unimpaired: https://github.com/tpope/vim-unimpaired 
 .. _vim-javascript: https://github.com/pangloss/vim-javascript
 .. _vim-javascript-syntax: https://github.com/jelera/vim-javascript-syntax
+.. _vim-multiple-cursors: https://github.com/terryma/vim-multiple-cursors
 
 Shortcuts and re-Mappings
 ============================
