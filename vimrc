@@ -422,8 +422,10 @@ set nomodeline
 
 " ==================================================
 " Disable python-more rope completion, using Jedi
+" Disable folding
 " ==================================================
 let g:pymode_rope_completion = 0
+let g:pymode_folding = 0
 
 " ==================================================
 " Allow overrides via ~/.vim/vimrc.local
