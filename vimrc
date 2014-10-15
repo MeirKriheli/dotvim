@@ -427,6 +427,12 @@ set nomodeline
 let g:pymode_rope_completion = 0
 let g:pymode_folding = 0
 
+
+" ==================================================
+" gr opens Fuzzy tags search
+" ==================================================
+nmap gr :CtrlPBufTag<CR>
+
 " ==================================================
 " Allow overrides via ~/.vim/vimrc.local
 " ==================================================
