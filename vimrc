@@ -75,6 +75,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'fatih/vim-go'
+Plugin 'tpope/vim-repeat'
 
 call vundle#end()            " required
 

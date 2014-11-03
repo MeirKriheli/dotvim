@@ -99,6 +99,7 @@ Plugins
 * splitjoin.vim_ - A vim plugin that simplifies the transition between multiline
   and single-line code
 * vim-go_ - Go development plugin for Vim 
+* vim-repeat_ - enable repeating supported plugin maps with "."
 
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -137,6 +138,7 @@ Plugins
 .. _vim-multiple-cursors: https://github.com/terryma/vim-multiple-cursors
 .. _splitjoin.vim: https://github.com/AndrewRadev/splitjoin.vim
 .. _vim-go: https://github.com/fatih/vim-go
+.. _vim-repeat: https://github.com/tpope/vim-repeat
 
 
 Shortcuts and re-Mappings
