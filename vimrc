@@ -271,6 +271,9 @@ noremap <F2> <Esc>:close<CR><Esc>
 " Splits to the right
 set splitright
 
+" Deleter buffer, keep the split (switch to prev buf, delete now prev buf)
+nmap <leader>d :b#<bar>bd#<CR>
+
 " ==================================================
 " Right-to-Left (Hebrew etc) shortcuts
 " ==================================================

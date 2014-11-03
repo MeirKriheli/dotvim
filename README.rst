@@ -167,6 +167,8 @@ Key                     Command
 ----------------------  -----------------------------------------------------------------
 ``<CTRL>arrow``         Window movement commands (mapped via MiniBufExplorer settings)
 ----------------------  -----------------------------------------------------------------
+``<Leader>d``           Delete buffer, keep the split
+----------------------  -----------------------------------------------------------------
 ``<CTRL-TAB>``          Next buffer in current window (via MiniBufExplorer settings)
 ----------------------  -----------------------------------------------------------------
 ``<CTRL-SHIFT-TAB>``    Previous buffer in current window (via MiniBufExplorer settings)
