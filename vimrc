@@ -268,6 +268,8 @@ map . <C-W><
 " F2 close current split (window)
 noremap <F2> <Esc>:close<CR><Esc>
 
+" Splits to the right
+set splitright
 
 " ==================================================
 " Right-to-Left (Hebrew etc) shortcuts
