@@ -76,6 +76,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'fatih/vim-go'
 Plugin 'tpope/vim-repeat'
+Plugin 'gregsexton/MatchTag'
 
 call vundle#end()            " required
 

@@ -85,6 +85,7 @@ Plugins
 * json.vim_ - A syntax highlighting file for JSON
 * TaskList_ - Eclipse like task list
 * MatchIt_ - Extended % matching for HTML, LaTeX, and many other languages
+* MatchTag_ - Highlight matching HTML tags
 * vim-airline_ - Light weight statusline utility
 * tabular_ - text filtering and alignment
 * vim-plugin-viewdoc_ - Flexible viewer for any documentation
@@ -139,6 +140,7 @@ Plugins
 .. _splitjoin.vim: https://github.com/AndrewRadev/splitjoin.vim
 .. _vim-go: https://github.com/fatih/vim-go
 .. _vim-repeat: https://github.com/tpope/vim-repeat
+.. _MatchTag: https://github.com/gregsexton/MatchTag
 
 
 Shortcuts and re-Mappings
