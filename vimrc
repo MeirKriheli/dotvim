@@ -441,6 +441,11 @@ let g:jedi#use_splits_not_buffers = "right"
 nmap gr :CtrlPBufTag<CR>
 
 " ==================================================
+" viewdoc uses splits, not tabs
+" ==================================================
+let g:viewdoc_open='belowright vnew'
+
+" ==================================================
 " Allow overrides via ~/.vim/vimrc.local
 " ==================================================
 if filereadable(expand("~/.vim/vimrc.local"))
