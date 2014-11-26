@@ -58,6 +58,18 @@ For more info::
 
     :h Vundle
 
+Go tags
+----------
+
+For CtrlPBufTag search in go lang files, make sure you have an updated version
+of catgs (>=5.8) and put in your `~/.ctags`::
+
+    --langdef=Go
+    --langmap=Go:.go
+    --regex-Go=/func([ \t]+\([^)]+\))?[ \t]+([a-zA-Z0-9_]+)/\2/f,func/
+    --regex-Go=/var[ \t]+([a-zA-Z_][a-zA-Z0-9_]+)/\1/v,var/
+    --regex-Go=/type[ \t]+([a-zA-Z_][a-zA-Z0-9_]+)/\1/t,type/
+
 Plugins
 ============
 
