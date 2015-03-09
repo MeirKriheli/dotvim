@@ -460,6 +460,12 @@ let g:ctrlp_buftag_types = {
 let g:viewdoc_open='belowright vnew'
 
 " ==================================================
+" XML folding
+" ==================================================
+let g:xml_syntax_folding=1
+au FileType xml setlocal foldmethod=syntax
+
+" ==================================================
 " Allow overrides via ~/.vim/vimrc.local
 " ==================================================
 if filereadable(expand("~/.vim/vimrc.local"))
