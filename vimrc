@@ -51,7 +51,6 @@ Plugin 'vim-scripts/css3-mod'
 Plugin 'scrooloose/nerdtree'
 Plugin 'mileszs/ack.vim'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'argent-smith/JSON.vim'
 Plugin 'vim-scripts/TaskList.vim'
 Plugin 'vim-scripts/Jinja'
 Plugin 'vim-scripts/jQuery'
@@ -77,6 +76,7 @@ Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'fatih/vim-go'
 Plugin 'tpope/vim-repeat'
 Plugin 'gregsexton/MatchTag'
+Plugin 'elzr/vim-json'
 
 call vundle#end()            " required
 
@@ -464,6 +464,11 @@ let g:viewdoc_open='belowright vnew'
 " ==================================================
 let g:xml_syntax_folding=1
 au FileType xml setlocal foldmethod=syntax
+
+" ==================================================
+" JSON folding
+" ==================================================
+au FileType json setlocal foldmethod=syntax
 
 " ==================================================
 " Allow overrides via ~/.vim/vimrc.local

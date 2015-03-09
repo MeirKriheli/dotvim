@@ -94,7 +94,7 @@ Plugins
 * ack.vim_ - Plugin for the Perl module / CLI script 'ack'
 * auto-pairs_ - Insert or delete brackets, parens, quotes in pair
 * po.vim_ - Easier editing of GNU gettext PO files
-* json.vim_ - A syntax highlighting file for JSON
+* vim-json_ - A better JSON for Vim
 * TaskList_ - Eclipse like task list
 * MatchIt_ - Extended % matching for HTML, LaTeX, and many other languages
 * MatchTag_ - Highlight matching HTML tags
@@ -136,7 +136,7 @@ Plugins
 .. _ack.vim: https://github.com/mileszs/ack.vim
 .. _auto-pairs: https://github.com/jiangmiao/auto-pairs
 .. _po.vim: http://vim.sourceforge.net/scripts/script.php?script_id=695
-.. _json.vim: https://github.com/argent-smith/JSON.vim
+.. _vim-json: https://github.com/elzr/vim-json
 .. _TaskList: http://juan.axisym3.net/vim-plugins/#tasklist
 .. _MatchIt: http://www.vim.org/scripts/script.php?script_id=39
 .. _SuperTab: https://github.com/ervandew/supertab
