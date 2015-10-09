@@ -70,6 +70,17 @@ of catgs (>=5.8) and put in your `~/.ctags`::
     --regex-Go=/var[ \t]+([a-zA-Z_][a-zA-Z0-9_]+)/\1/v,var/
     --regex-Go=/type[ \t]+([a-zA-Z_][a-zA-Z0-9_]+)/\1/t,type/
 
+
+Javascript tags
+----------------
+
+Once tern_for_vim is installed::
+
+    cd ~/.vim/bundle/tern_for_vim/
+    npm install
+    npm install -g git://github.com/ramitos/jsctags.git
+
+
 Plugins
 ============
 
@@ -113,6 +124,7 @@ Plugins
   and single-line code
 * vim-go_ - Go development plugin for Vim 
 * vim-repeat_ - enable repeating supported plugin maps with "."
+* tern_for_vim_ - Provides Tern-based JavaScript editing support
 
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -153,6 +165,7 @@ Plugins
 .. _vim-go: https://github.com/fatih/vim-go
 .. _vim-repeat: https://github.com/tpope/vim-repeat
 .. _MatchTag: https://github.com/gregsexton/MatchTag
+.. _tern_for_vim: https://github.com/marijnh/tern_for_vim
 
 
 Shortcuts and re-Mappings

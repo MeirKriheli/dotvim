@@ -77,6 +77,7 @@ Plugin 'fatih/vim-go'
 Plugin 'tpope/vim-repeat'
 Plugin 'gregsexton/MatchTag'
 Plugin 'elzr/vim-json'
+Plugin 'marijnh/tern_for_vim'
 
 call vundle#end()            " required
 
@@ -358,7 +359,7 @@ let g:SuperTabDefaultCompletionType = "context"
 " ==================================================
 
 set wildignore+=*.so,*.swp,*.zip,*.pyc,*.pyo
-let g:ctrlp_custom_ignore = 'node_modules\|bower_components'
+let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|templates_c'
 
 " ==================================================
 " Ack
