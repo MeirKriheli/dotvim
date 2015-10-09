@@ -10,8 +10,8 @@ Features
 
 * `vimrc` handling
 * Incremental and smart case search.
-* Sublime Text style multiple selections 
-* Trailing whitespace highlightling and cleaning shortcut.
+* Sublime Text style multiple selections
+* Trailing whitespace highlightling and cleaning shortcut
 * Logical and Visual layout (for Right-To-Left lanaguegs) editing.
 * Tabs expand to 4 spaces by default
 * Remap ```<Leader>`` to ``,`` and ``jj` to ``<ESC>``
@@ -122,7 +122,7 @@ Plugins
 * vim-multiple-cursors_ - True Sublime Text style multiple selections for Vim
 * splitjoin.vim_ - A vim plugin that simplifies the transition between multiline
   and single-line code
-* vim-go_ - Go development plugin for Vim 
+* vim-go_ - Go development plugin for Vim
 * vim-repeat_ - enable repeating supported plugin maps with "."
 * tern_for_vim_ - Provides Tern-based JavaScript editing support
 
@@ -157,7 +157,7 @@ Plugins
 .. _vim-plugin-viewdoc: https://github.com/powerman/vim-plugin-viewdoc
 .. _tcomment_vim: https://github.com/tomtom/tcomment_vim
 .. _javascript-libraries-syntax.vim: https://github.com/othree/javascript-libraries-syntax.vim
-.. _vim-unimpaired: https://github.com/tpope/vim-unimpaired 
+.. _vim-unimpaired: https://github.com/tpope/vim-unimpaired
 .. _vim-javascript: https://github.com/pangloss/vim-javascript
 .. _vim-javascript-syntax: https://github.com/jelera/vim-javascript-syntax
 .. _vim-multiple-cursors: https://github.com/terryma/vim-multiple-cursors
