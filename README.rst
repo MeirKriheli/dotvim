@@ -14,7 +14,7 @@ Features
 * Trailing whitespace highlightling and cleaning shortcut
 * Logical and Visual layout (for Right-To-Left lanaguegs) editing.
 * Tabs expand to 4 spaces by default
-* Remap ```<Leader>`` to ``,`` and ``jj` to ``<ESC>``
+* Remap ```<Leader>`` to ``<SPACE>`` and ``jj` to ``<ESC>``
 * Highlight current row and color column 80
 * Extra syntax highlighting (css3, less, json, jinja, jquery etc)
 * Syntax checking
@@ -176,7 +176,7 @@ Key                     Command
 ======================  =================================================================
 ``jj``                  ``<Esc>`` in insert and command modes
 ----------------------  -----------------------------------------------------------------
-``,``                   ``<Leader>``
+``<SPACE>``             ``<Leader>``
 ----------------------  -----------------------------------------------------------------
 ``<Leader>v``           Load `.vimrc`
 ----------------------  -----------------------------------------------------------------

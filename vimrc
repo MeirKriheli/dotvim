@@ -103,35 +103,35 @@ let g:solarized_visibility="high"
 " ==================================================
 " Basic Settings
 " ==================================================
-let mapleader=","       " change the leader to be a comma vs slash
-set textwidth=80        " Try this out to see how textwidth helps
-set ch=2                " Make command line two lines high
-set ls=2                " allways show status line
-set scrolloff=3         " keep 3 lines when scrolling
-set cursorline          " have a line indicate the cursor location
-set cindent             " cindent
-set autoindent          " always set autoindenting on
-set showcmd             " display incomplete commands
-set ruler               " show the cursor position all the time
+let mapleader="\<Space>" " change the leader to be a space vs slash
+set textwidth=80         " Try this out to see how textwidth helps
+set ch=2                 " Make command line two lines high
+set ls=2                 " allways show status line
+set scrolloff=3          " keep 3 lines when scrolling
+set cursorline           " have a line indicate the cursor location
+set cindent              " cindent
+set autoindent           " always set autoindenting on
+set showcmd              " display incomplete commands
+set ruler                " show the cursor position all the time
 set rulerformat=%30(%=\:b%n%y%m%r%w\ %l,%c%V\ %P%)
 set visualbell
-set nobackup            " do not keep a backup file
-set number              " show line numbers
-set title               " show title in console title bar
-set ttyfast             " smoother changes
-set modeline            " last lines in document sets vim mode
-set modelines=3         " number lines checked for modelines
-set shortmess=atI       " Abbreviate messages
-set nostartofline       " don't jump to first character when paging
+set nobackup             " do not keep a backup file
+set number               " show line numbers
+set title                " show title in console title bar
+set ttyfast              " smoother changes
+set modeline             " last lines in document sets vim mode
+set modelines=3          " number lines checked for modelines
+set shortmess=atI        " Abbreviate messages
+set nostartofline        " don't jump to first character when paging
 set backspace=indent,eol,start
-set matchpairs+=<:>     " show matching <> (html mainly) as well
+set matchpairs+=<:>      " show matching <> (html mainly) as well
 set showmatch
 set matchtime=3
-set sm                  " show matching braces, somewhat annoying...
+set sm                   " show matching braces, somewhat annoying...
 set mouse=a
 set ttymouse=xterm2
-set history=500         " larger history
-set noshowmode          " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+set history=500          " larger history
+set noshowmode           " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 set timeout ttimeoutlen=50
 
 
