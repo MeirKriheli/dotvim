@@ -61,7 +61,8 @@ Plugin 'vim-scripts/po.vim--Jelenak'
 Plugin 'honza/vim-snippets'
 Plugin 'nono/vim-handlebars'
 Plugin 'powerman/vim-plugin-viewdoc'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'davidhalter/jedi-vim'
@@ -78,6 +79,8 @@ Plugin 'tpope/vim-repeat'
 Plugin 'gregsexton/MatchTag'
 Plugin 'elzr/vim-json'
 Plugin 'marijnh/tern_for_vim'
+Plugin 'chriskempson/base16-vim'
+Plugin 'edkolev/tmuxline.vim'
 
 call vundle#end()            " required
 
@@ -98,7 +101,7 @@ endif
 
 let g:solarized_contrast="high"
 let g:solarized_visibility="high"
-
+let base16colorspace=256
 
 " ==================================================
 " Basic Settings
