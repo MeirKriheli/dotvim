@@ -2,7 +2,7 @@
 My vim setup
 ============================================================
 
-My vim IDE setup for python, html, css, javascript, gettext and more
+My vim IDE setup for python, html, css, javascript, typescript, gettext and more
 
 
 Features
@@ -22,6 +22,7 @@ Features
 * Python completion, refactoring, navigation and docs
 * Javacript support (highlighting, libraries syntax highligting)
 * Go support
+* Typescript support
 * Quotes, parens etc pair, surround
 * Extended pair matching with %
 * ASCII drawing
@@ -125,6 +126,7 @@ Plugins
 * vim-go_ - Go development plugin for Vim
 * vim-repeat_ - enable repeating supported plugin maps with "."
 * tern_for_vim_ - Provides Tern-based JavaScript editing support
+* typescript-vim_ - Typescript Syntax for Vim
 
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -166,6 +168,7 @@ Plugins
 .. _vim-repeat: https://github.com/tpope/vim-repeat
 .. _MatchTag: https://github.com/gregsexton/MatchTag
 .. _tern_for_vim: https://github.com/marijnh/tern_for_vim
+.. _typescript-vim: https://github.com/leafgarland/typescript-vim
 
 
 Shortcuts and re-Mappings

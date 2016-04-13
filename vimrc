@@ -81,6 +81,7 @@ Plugin 'elzr/vim-json'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'edkolev/tmuxline.vim'
+Plugin 'leafgarland/typescript-vim'
 
 call vundle#end()            " required
 
