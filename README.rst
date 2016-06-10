@@ -35,29 +35,39 @@ Features
 Usage
 ============
 
-
 The following commands will clone the repo, symlink `~/.vimrc` and update the
 bundles::
 
     git clone https://github.com/MeirKriheli/dotvim.git ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
     cd ~/.vim
-    git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 Install plugins from the command line::
 
-    vim +PluginInstall +qall
+    vim +PlugUpdate +qa
 
 To add or override settings, place them in ``~/.vim/vimrc.local``.
 
 To update submodules in the future, when you have vim running, source vimrc to
 make sure plugins list is updated (or restart vim)::
 
-    :PluginUpdate
+    :PlugUpdate
 
-For more info::
 
-    :h Vundle
+Upgrading
+----------
+
+In case you're updating from previous `Vundle` based to `vim-plug`, remove the
+`bundle` directory as it's not needed anymore, get `vim-plug` and install the
+plugins::
+
+    cd ~/.vim
+    rm -rf bundle
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    vim +PlugUpdate +qa
 
 Go tags
 ----------
@@ -75,11 +85,8 @@ of catgs (>=5.8) and put in your `~/.ctags`::
 Javascript tags
 ----------------
 
-Once tern_for_vim is installed::
-
-    cd ~/.vim/bundle/tern_for_vim/
-    npm install
-    npm install -g git://github.com/ramitos/jsctags.git
+Ensure you have `node` and `npm` installed as `npm install` is executed once
+`vim-plug` installs `tern_for_vim`.
 
 
 Plugins

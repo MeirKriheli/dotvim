@@ -3,3 +3,5 @@
 vimrc.local
 spell/*
 bundle/
+plugged/
+autoload/plug.vim
