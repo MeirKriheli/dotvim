@@ -22,7 +22,7 @@ Features
 * Python completion, refactoring, navigation and docs
 * Javacript support (highlighting, libraries syntax highligting)
 * Go support
-* Typescript support
+* Typescript support and completion
 * Quotes, parens etc pair, surround
 * Extended pair matching with %
 * ASCII drawing

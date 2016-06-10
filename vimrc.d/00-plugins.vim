@@ -53,4 +53,10 @@ Plug 'chriskempson/base16-vim'
 Plug 'edkolev/tmuxline.vim'
 Plug 'leafgarland/typescript-vim'
 
+" needed for tsuquyomi
+Plug 'Shougo/vimproc.vim', { 'do': 'make' }
+
+" TypeScript completion
+Plug 'Quramy/tsuquyomi'
+
 call plug#end()
