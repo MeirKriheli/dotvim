@@ -16,13 +16,9 @@ Features
 * Tabs expand to 4 spaces by default
 * Remap ```<Leader>`` to ``<SPACE>`` and ``jj` to ``<ESC>``
 * Highlight current row and color column 80
-* Extra syntax highlighting (css3, less, json, jinja, jquery etc)
+* 70+ language packs support
 * Syntax checking
 * Snippets
-* Python completion, refactoring, navigation and docs
-* Javacript support (highlighting, libraries syntax highligting)
-* Go support
-* Typescript support and completion
 * Quotes, parens etc pair, surround
 * Extended pair matching with %
 * ASCII drawing
@@ -104,11 +100,9 @@ Plugins
 * snipmate-snippets_ - snipmate default snippets
 * python-mode_ - Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box
 * DrawIt_ - Ascii drawing plugin: lines, ellipses, arrows, fills, and more!
-* vim-less_ - less support for vim
 * vim-surround_ - quoting/parenthesizing made simple
 * Shebang_ - Make executable by setting the correct shebang and executable bit
 * Tagbar_ - Displays tags in a window, ordered by class etc
-* css3-mod_ - css syntax script to support css3
 * `NERD tree`_ - A tree explorer
 * ack.vim_ - Plugin for the Perl module / CLI script 'ack'
 * auto-pairs_ - Insert or delete brackets, parens, quotes in pair
@@ -122,18 +116,12 @@ Plugins
 * vim-plugin-viewdoc_ - Flexible viewer for any documentation
 * tcomment_vim_ - An extensible & universal comment vim-plugin that also
   handles embedded filetypesludovicchabant/vim-lawrencium
-* vim-javascript_ - Vastly improved Javascript indentation and syntax support in
-  Vim.
-* vim-javascript-syntax_ - Enhanced javascript syntax file for Vim
-* javascript-libraries-syntax.vim_  - Syntax for JavaScript libraries
 * vim-unimpaired_ - pairs of handy bracket mappings
 * vim-multiple-cursors_ - True Sublime Text style multiple selections for Vim
 * splitjoin.vim_ - A vim plugin that simplifies the transition between multiline
   and single-line code
-* vim-go_ - Go development plugin for Vim
 * vim-repeat_ - enable repeating supported plugin maps with "."
 * tern_for_vim_ - Provides Tern-based JavaScript editing support
-* typescript-vim_ - Typescript Syntax for Vim
 
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -148,11 +136,9 @@ Plugins
 .. _snipmate-snippets : https://github.com/honza/snipmate-snippets
 .. _python-mode: https://github.com/klen/python-mode
 .. _DrawIt: https://github.com/vim-scripts/DrawIt
-.. _vim-less: https://github.com/vim-scripts/vim-less
 .. _vim-surround: https://github.com/tpope/vim-surround
 .. _Shebang: https://github.com/vim-scripts/Shebang
 .. _Tagbar: http://majutsushi.github.com/tagbar/
-.. _css3-mod: https://github.com/vim-scripts/css3-mod
 .. _NERD tree: https://github.com/scrooloose/nerdtree
 .. _ack.vim: https://github.com/mileszs/ack.vim
 .. _auto-pairs: https://github.com/jiangmiao/auto-pairs
@@ -165,17 +151,12 @@ Plugins
 .. _tabular: https://github.com/godlygeek/tabular
 .. _vim-plugin-viewdoc: https://github.com/powerman/vim-plugin-viewdoc
 .. _tcomment_vim: https://github.com/tomtom/tcomment_vim
-.. _javascript-libraries-syntax.vim: https://github.com/othree/javascript-libraries-syntax.vim
 .. _vim-unimpaired: https://github.com/tpope/vim-unimpaired
-.. _vim-javascript: https://github.com/pangloss/vim-javascript
-.. _vim-javascript-syntax: https://github.com/jelera/vim-javascript-syntax
 .. _vim-multiple-cursors: https://github.com/terryma/vim-multiple-cursors
 .. _splitjoin.vim: https://github.com/AndrewRadev/splitjoin.vim
-.. _vim-go: https://github.com/fatih/vim-go
 .. _vim-repeat: https://github.com/tpope/vim-repeat
 .. _MatchTag: https://github.com/gregsexton/MatchTag
 .. _tern_for_vim: https://github.com/marijnh/tern_for_vim
-.. _typescript-vim: https://github.com/leafgarland/typescript-vim
 
 
 Shortcuts and re-Mappings

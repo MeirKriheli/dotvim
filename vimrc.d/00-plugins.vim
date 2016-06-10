@@ -22,8 +22,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'mileszs/ack.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'vim-scripts/TaskList.vim'
-Plug 'vim-scripts/Jinja'
-Plug 'vim-scripts/jQuery'
 Plug 'vim-scripts/matchit.zip'
 Plug 'ervandew/supertab'
 Plug 'godlygeek/tabular'
@@ -38,20 +36,17 @@ Plug 'tomtom/tcomment_vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'ludovicchabant/vim-lawrencium'
 Plug 'jelera/vim-javascript-syntax'
-Plug 'othree/javascript-libraries-syntax.vim'
-Plug 'groenewege/vim-less'
 Plug 'tpope/vim-unimpaired'
-Plug 'pangloss/vim-javascript'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'AndrewRadev/splitjoin.vim'
-Plug 'fatih/vim-go'
 Plug 'tpope/vim-repeat'
 Plug 'gregsexton/MatchTag'
-Plug 'elzr/vim-json'
 Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 Plug 'chriskempson/base16-vim'
 Plug 'edkolev/tmuxline.vim'
-Plug 'leafgarland/typescript-vim'
+
+" Over 70 language packs
+Plug 'sheerun/vim-polyglot'
 
 " needed for tsuquyomi
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
