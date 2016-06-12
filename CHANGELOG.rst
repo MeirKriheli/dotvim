@@ -3,13 +3,22 @@ Changelog
 
 Important changes are mentioned below.
 
+
+2016-06-13
+----------
+
+* Replaced vim-snipmate with UltiSnips_
+
+.. _UltiSnips: https://github.com/sirver/ultisnips
+
 2016-06-10
 ----------
 
 * Switch from Vundle to vim-plug_
+* Replaced individual language packs with vim-polyglot_
 
 .. _vim-plug: https://github.com/junegunn/vim-plug
-
+.. _vim-polyglot: https://github.com/sheerun/vim-polyglot
 
 2016-06-06
 ----------
