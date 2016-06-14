@@ -11,6 +11,7 @@ Important changes are mentioned below.
 * Added YouCompleteMe_.
 * Remove tern_for_vim, tsuquyomi.
 * Added `vimrc.before` and `vimrc.after`.
+* Fix UltiSnips_ and YouCompleteMe_ integration.
 
 .. _UltiSnips: https://github.com/sirver/ultisnips
 .. _YouCompleteMe: https://github.com/valloric/youcompleteme
