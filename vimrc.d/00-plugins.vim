@@ -41,17 +41,14 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'tpope/vim-repeat'
 Plug 'gregsexton/MatchTag'
-Plug 'marijnh/tern_for_vim', {'do': 'npm install'}
 Plug 'chriskempson/base16-vim'
 Plug 'edkolev/tmuxline.vim'
 
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'
 
-" needed for tsuquyomi
-Plug 'Shougo/vimproc.vim', { 'do': 'make' }
+let g:dotvim_ycm_build_command = get(g:, 'dotvim_ycm_build_command', './install.py')
 
-" TypeScript completion
-Plug 'Quramy/tsuquyomi'
+Plug 'Valloric/YouCompleteMe', { 'do': dotvim_ycm_build_command}
 
 call plug#end()

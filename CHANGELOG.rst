@@ -4,12 +4,16 @@ Changelog
 Important changes are mentioned below.
 
 
-2016-06-13
+2016-06-14
 ----------
 
-* Replaced vim-snipmate with UltiSnips_
+* Replaced vim-snipmate with UltiSnips_.
+* Added YouCompleteMe_.
+* Remove tern_for_vim, tsuquyomi.
+* Added `vimrc.before` and `vimrc.after`.
 
 .. _UltiSnips: https://github.com/sirver/ultisnips
+.. _YouCompleteMe: https://github.com/valloric/youcompleteme
 
 2016-06-10
 ----------

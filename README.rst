@@ -28,6 +28,33 @@ Features
 * Tab completion
 * Commenting
 
+Prerequisites
+=============
+
+Vim with Python support.
+
+
+YouCompleteMe
+-------------
+
+You can override the installation of YouCompleteMe by setting the variable
+`g:dotvim_ycm_build_command` in your `vimrc.before` (for more info, see
+Overrides_  section and YouCompleteMe_ docs), e.g.::
+
+    let g:dotvim_ycm_build_command='./install.py --clang-completer --gocode-completer --tern-completer --racer-completer' 
+
+* CMake
+* for Go support: install Go and add `--gocode-completer` to
+  `g:dotvim_ycm_build_command`.
+* TypeScript support: install Node.js and npm then install the TypeScript SDK with npm `install -g typescript`.
+* JavaScript support: install Node.js and npm and add `--tern-completer` to
+  `g:dotvim_ycm_build_command`.
+* Rust support: install Rust and add `--racer-completer` to
+  `g:dotvim_ycm_build_command`.
+
+For more info, see https://github.com/valloric/youcompleteme.
+
+
 Usage
 ============
 
@@ -78,11 +105,14 @@ of catgs (>=5.8) and put in your `~/.ctags`::
     --regex-Go=/type[ \t]+([a-zA-Z_][a-zA-Z0-9_]+)/\1/t,type/
 
 
-Javascript tags
+Overrides
 ----------------
 
-Ensure you have `node` and `npm` installed as `npm install` is executed once
-`vim-plug` installs `tern_for_vim`.
+* `~/.vim/vimrc.before`, if exists, is sourced before everything allowing
+  definitions of variables to act upon.
+* `~/.vim/vimrc.local`, or `~/.vim/vimrc.after` if exists, is sourced after all
+  the files in `~/.vim/vimrc.d` allowing override of default settings (e.g:
+  color schemes, plugin configuration, etc.).
 
 
 Plugins
@@ -94,10 +124,11 @@ Plugins
 * Fugitive_ - a Git wrapper so awesome, it should be illegal
 * Lawrencium_ - Mercurial wrapper for Vim, inspired by Tim Pope's Fugitive
 * ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder.
+* YouCompleteMe_ - A code-completion engine for Vim.
 * SuperTab_ - Insert mode completions with Tab
 * Syntastic_ - Syntax checking hacks for vim.
-* snipMate_ - implements some of TextMate's snippets features in Vim.
-* snipmate-snippets_ - snipmate default snippets
+* UltiSnips_ - The ultimate snippet solution for Vim.
+* vim-snippets_ - vim-snipmate default snippets
 * python-mode_ - Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box
 * DrawIt_ - Ascii drawing plugin: lines, ellipses, arrows, fills, and more!
 * vim-surround_ - quoting/parenthesizing made simple
@@ -121,7 +152,6 @@ Plugins
 * splitjoin.vim_ - A vim plugin that simplifies the transition between multiline
   and single-line code
 * vim-repeat_ - enable repeating supported plugin maps with "."
-* tern_for_vim_ - Provides Tern-based JavaScript editing support
 
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
@@ -132,8 +162,8 @@ Plugins
 .. _vcscommand: http://www.vim.org/scripts/script.php?script_id=90
 .. _ctrlp.vim: https://github.com/kien/ctrlp.vim
 .. _Syntastic: https://github.com/scrooloose/syntastic
-.. _snipMate: https://github.com/garbas/vim-snipmate
-.. _snipmate-snippets : https://github.com/honza/snipmate-snippets
+.. _UltiSnips: https://github.com/sirver/ultisnips
+.. _vim-snippets : https://github.com/honza/vim-snippets
 .. _python-mode: https://github.com/klen/python-mode
 .. _DrawIt: https://github.com/vim-scripts/DrawIt
 .. _vim-surround: https://github.com/tpope/vim-surround
@@ -156,7 +186,7 @@ Plugins
 .. _splitjoin.vim: https://github.com/AndrewRadev/splitjoin.vim
 .. _vim-repeat: https://github.com/tpope/vim-repeat
 .. _MatchTag: https://github.com/gregsexton/MatchTag
-.. _tern_for_vim: https://github.com/marijnh/tern_for_vim
+.. _YouCompleteMe: https://github.com/valloric/youcompleteme
 
 
 Shortcuts and re-Mappings
