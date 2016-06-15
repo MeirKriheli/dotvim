@@ -96,7 +96,7 @@ Go tags
 ----------
 
 For CtrlPBufTag search in go lang files, make sure you have an updated version
-of catgs (>=5.8) and put in your `~/.ctags`::
+of ctags (>=5.8) and put in your `~/.ctags`::
 
     --langdef=Go
     --langmap=Go:.go
