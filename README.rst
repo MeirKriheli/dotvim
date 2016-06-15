@@ -119,6 +119,7 @@ Plugins
 ============
 
 * Solarized_ - color scheme
+* base16-vim_ - color scheme
 * MiniBufExplorer_ - Elegant buffer explorer
 * vim-distpach_ - asynchronous build and test dispatcher
 * Fugitive_ - a Git wrapper so awesome, it should be illegal
@@ -138,7 +139,6 @@ Plugins
 * ack.vim_ - Plugin for the Perl module / CLI script 'ack'
 * auto-pairs_ - Insert or delete brackets, parens, quotes in pair
 * po.vim_ - Easier editing of GNU gettext PO files
-* vim-json_ - A better JSON for Vim
 * TaskList_ - Eclipse like task list
 * MatchIt_ - Extended % matching for HTML, LaTeX, and many other languages
 * MatchTag_ - Highlight matching HTML tags
@@ -155,6 +155,7 @@ Plugins
 
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
+.. _base16-vim: https://github.com/chriskempson/base16-vim
 .. _MiniBufExplorer: https://github.com/fholgado/minibufexpl.vim
 .. _Fugitive: https://github.com/tpope/vim-fugitive
 .. _Lawrencium: https://github.com/ludovicchabant/vim-lawrencium
@@ -173,7 +174,6 @@ Plugins
 .. _ack.vim: https://github.com/mileszs/ack.vim
 .. _auto-pairs: https://github.com/jiangmiao/auto-pairs
 .. _po.vim: http://vim.sourceforge.net/scripts/script.php?script_id=695
-.. _vim-json: https://github.com/elzr/vim-json
 .. _TaskList: http://juan.axisym3.net/vim-plugins/#tasklist
 .. _MatchIt: http://www.vim.org/scripts/script.php?script_id=39
 .. _SuperTab: https://github.com/ervandew/supertab
