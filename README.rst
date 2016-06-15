@@ -8,7 +8,7 @@ My vim IDE setup for python, html, css, javascript, typescript, gettext and more
 Features
 ============
 
-* `vimrc` handling
+* ``vimrc`` handling
 * Incremental and smart case search.
 * Sublime Text style multiple selections
 * Trailing whitespace highlightling and cleaning shortcut
@@ -38,19 +38,19 @@ YouCompleteMe
 -------------
 
 You can override the installation of YouCompleteMe by setting the variable
-`g:dotvim_ycm_build_command` in your `vimrc.before` (for more info, see
+``g:dotvim_ycm_build_command`` in your ``vimrc.before`` (for more info, see
 Overrides_  section and YouCompleteMe_ docs), e.g.::
 
     let g:dotvim_ycm_build_command='./install.py --clang-completer --gocode-completer --tern-completer --racer-completer' 
 
 * CMake
-* for Go support: install Go and add `--gocode-completer` to
-  `g:dotvim_ycm_build_command`.
-* TypeScript support: install Node.js and npm then install the TypeScript SDK with npm `install -g typescript`.
-* JavaScript support: install Node.js and npm and add `--tern-completer` to
-  `g:dotvim_ycm_build_command`.
-* Rust support: install Rust and add `--racer-completer` to
-  `g:dotvim_ycm_build_command`.
+* for Go support: install Go and add ``--gocode-completer`` to
+  ``g:dotvim_ycm_build_command``.
+* TypeScript support: install Node.js and npm then install the TypeScript SDK with npm ``install -g typescript``.
+* JavaScript support: install Node.js and npm and add ``--tern-completer`` to
+  ``g:dotvim_ycm_build_command``.
+* Rust support: install Rust and add ``--racer-completer`` to
+  ``g:dotvim_ycm_build_command``.
 
 For more info, see https://github.com/valloric/youcompleteme.
 
@@ -58,7 +58,7 @@ For more info, see https://github.com/valloric/youcompleteme.
 Usage
 ============
 
-The following commands will clone the repo, symlink `~/.vimrc` and update the
+The following commands will clone the repo, symlink ``~/.vimrc`` and update the
 bundles::
 
     git clone https://github.com/MeirKriheli/dotvim.git ~/.vim
@@ -82,9 +82,9 @@ make sure plugins list is updated (or restart vim)::
 Upgrading
 ----------
 
-In case you're updating from previous `Vundle` based to `vim-plug`, remove the
-`bundle` directory as it's not needed anymore, get `vim-plug` and install the
-plugins::
+In case you're updating from previous ``Vundle`` based to ``vim-plug``, remove
+the ``bundle`` directory as it's not needed anymore, get ``vim-plug`` and
+install the plugins::
 
     cd ~/.vim
     rm -rf bundle
@@ -96,7 +96,7 @@ Go tags
 ----------
 
 For CtrlPBufTag search in go lang files, make sure you have an updated version
-of ctags (>=5.8) and put in your `~/.ctags`::
+of ``ctags`` (>=5.8) and put in your ``~/.ctags``::
 
     --langdef=Go
     --langmap=Go:.go
@@ -108,10 +108,10 @@ of ctags (>=5.8) and put in your `~/.ctags`::
 Overrides
 ----------------
 
-* `~/.vim/vimrc.before`, if exists, is sourced before everything allowing
+* ``~/.vim/vimrc.before``, if exists, is sourced before everything allowing
   definitions of variables to act upon.
-* `~/.vim/vimrc.local`, or `~/.vim/vimrc.after` if exists, is sourced after all
-  the files in `~/.vim/vimrc.d` allowing override of default settings (e.g:
+* ``~/.vim/vimrc.local``, or ``~/.vim/vimrc.after`` if exists, is sourced after all
+  the files in ``~/.vim/vimrc.d`` allowing override of default settings (e.g:
   color schemes, plugin configuration, etc.).
 
 
