@@ -42,7 +42,7 @@ You can override the installation of YouCompleteMe by setting the variable
 ``g:dotvim_ycm_build_command`` in your ``vimrc.before`` (for more info, see
 Overrides_  section and YouCompleteMe_ docs), e.g.::
 
-    let g:dotvim_ycm_build_command='./install.py --clang-completer --gocode-completer --tern-completer --racer-completer' 
+    let g:dotvim_ycm_build_command='./install.py --clang-completer --gocode-completer --tern-completer --racer-completer'
 
 * CMake
 * for Go support: install Go and add ``--gocode-completer`` to
