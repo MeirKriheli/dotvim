@@ -3,6 +3,12 @@ Changelog
 
 Important changes are mentioned below.
 
+2016-10-03
+----------
+
+* Removed minibuf explorer
+* Added back vim-go
+* Switched default theme to molokai
 
 2016-06-14
 ----------
