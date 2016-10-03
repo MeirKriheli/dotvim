@@ -1,8 +1,9 @@
 " ==================================================
 " Color scheme and fonts
 " ==================================================
-colorscheme solarized
+let g:rehash256 = 1
 set background=dark
+colorscheme molokai
 
 if has("gui_running")
     set guifont=Droid\ Sans\ Mono\ 10,Andale\ Mono\ Regular\ 10,\ Liberation\ Mono\ 9
