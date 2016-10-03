@@ -4,7 +4,6 @@
 call plug#begin()
 
 Plug 'altercation/vim-colors-solarized'
-Plug 'fholgado/minibufexpl.vim'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-fugitive'
 Plug 'kien/ctrlp.vim'

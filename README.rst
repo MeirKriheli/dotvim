@@ -122,7 +122,6 @@ Plugins
 * Solarized_ - color scheme
 * base16-vim_ - color scheme
 * vim-molokai_ - color scheme
-* MiniBufExplorer_ - Elegant buffer explorer
 * vim-distpach_ - asynchronous build and test dispatcher
 * Fugitive_ - a Git wrapper so awesome, it should be illegal
 * Lawrencium_ - Mercurial wrapper for Vim, inspired by Tim Pope's Fugitive
@@ -160,7 +159,6 @@ Plugins
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
 .. _base16-vim: https://github.com/chriskempson/base16-vim
 .. _vim-molokai: https://github.com/tomasr/molokai
-.. _MiniBufExplorer: https://github.com/fholgado/minibufexpl.vim
 .. _Fugitive: https://github.com/tpope/vim-fugitive
 .. _Lawrencium: https://github.com/ludovicchabant/vim-lawrencium
 .. _vim-distpach: https://github.com/tpope/vim-dispatch
@@ -218,15 +216,11 @@ Key                     Command
 ----------------------  -----------------------------------------------------------------
 ``<Leader>S``           Remove trailing whitespace
 ----------------------  -----------------------------------------------------------------
-``<CTRL>hjkl``          Window movement commands (mapped via MiniBufExplorer settings)
+``<CTRL>hjkl``          Window movement commands
 ----------------------  -----------------------------------------------------------------
-``<CTRL>arrow``         Window movement commands (mapped via MiniBufExplorer settings)
+``<CTRL>arrow``         Window movement commands
 ----------------------  -----------------------------------------------------------------
 ``<Leader>d``           Delete buffer, keep the split
-----------------------  -----------------------------------------------------------------
-``<CTRL-TAB>``          Next buffer in current window (via MiniBufExplorer settings)
-----------------------  -----------------------------------------------------------------
-``<CTRL-SHIFT-TAB>``    Previous buffer in current window (via MiniBufExplorer settings)
 ----------------------  -----------------------------------------------------------------
 ``-``, ``+``            Resize horizontal splits
 ----------------------  -----------------------------------------------------------------
