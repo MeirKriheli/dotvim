@@ -121,6 +121,7 @@ Plugins
 
 * Solarized_ - color scheme
 * base16-vim_ - color scheme
+* vim-molokai_ - color scheme
 * MiniBufExplorer_ - Elegant buffer explorer
 * vim-distpach_ - asynchronous build and test dispatcher
 * Fugitive_ - a Git wrapper so awesome, it should be illegal
@@ -158,6 +159,7 @@ Plugins
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
 .. _base16-vim: https://github.com/chriskempson/base16-vim
+.. _vim-molokai: https://github.com/tomasr/molokai
 .. _MiniBufExplorer: https://github.com/fholgado/minibufexpl.vim
 .. _Fugitive: https://github.com/tpope/vim-fugitive
 .. _Lawrencium: https://github.com/ludovicchabant/vim-lawrencium

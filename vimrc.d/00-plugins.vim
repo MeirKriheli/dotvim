@@ -42,6 +42,7 @@ Plug 'AndrewRadev/splitjoin.vim'
 Plug 'tpope/vim-repeat'
 Plug 'gregsexton/MatchTag'
 Plug 'chriskempson/base16-vim'
+Plug 'tomasr/molokai'
 Plug 'edkolev/tmuxline.vim'
 Plug 'fatih/vim-go'
 
