@@ -10,6 +10,7 @@ Important changes are mentioned below.
 * Added back vim-go
 * Switched default theme to molokai
 * Update ctrlp to the updated fork
+* Removed vim-ack in favor of using grep with rg
 
 2016-06-14
 ----------
