@@ -2,7 +2,8 @@
 My vim setup
 ============================================================
 
-My vim IDE setup for python, html, css, javascript, typescript, gettext and more
+My vim IDE setup for Python, Go, html, css, javascript, typescript, gettext and
+more
 
 
 Features
@@ -131,6 +132,7 @@ Plugins
 * UltiSnips_ - The ultimate snippet solution for Vim.
 * vim-snippets_ - vim-snipmate default snippets
 * python-mode_ - Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box
+* vim-go_ - Go development plugin for Vim
 * DrawIt_ - Ascii drawing plugin: lines, ellipses, arrows, fills, and more!
 * vim-surround_ - quoting/parenthesizing made simple
 * Shebang_ - Make executable by setting the correct shebang and executable bit
@@ -166,6 +168,7 @@ Plugins
 .. _UltiSnips: https://github.com/sirver/ultisnips
 .. _vim-snippets : https://github.com/honza/vim-snippets
 .. _python-mode: https://github.com/klen/python-mode
+.. _vim-go: https://github.com/fatih/vim-go
 .. _DrawIt: https://github.com/vim-scripts/DrawIt
 .. _vim-surround: https://github.com/tpope/vim-surround
 .. _Shebang: https://github.com/vim-scripts/Shebang

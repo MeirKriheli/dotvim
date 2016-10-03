@@ -43,6 +43,7 @@ Plug 'tpope/vim-repeat'
 Plug 'gregsexton/MatchTag'
 Plug 'chriskempson/base16-vim'
 Plug 'edkolev/tmuxline.vim'
+Plug 'fatih/vim-go'
 
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'
