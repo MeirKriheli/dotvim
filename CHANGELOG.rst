@@ -9,6 +9,7 @@ Important changes are mentioned below.
 * Removed minibuf explorer
 * Added back vim-go
 * Switched default theme to molokai
+* Update ctrlp to the updated fork
 
 2016-06-14
 ----------

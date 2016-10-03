@@ -163,7 +163,7 @@ Plugins
 .. _Lawrencium: https://github.com/ludovicchabant/vim-lawrencium
 .. _vim-distpach: https://github.com/tpope/vim-dispatch
 .. _vcscommand: http://www.vim.org/scripts/script.php?script_id=90
-.. _ctrlp.vim: https://github.com/kien/ctrlp.vim
+.. _ctrlp.vim: https://github.com/ctrlpvim/ctrlp.vim
 .. _Syntastic: https://github.com/scrooloose/syntastic
 .. _UltiSnips: https://github.com/sirver/ultisnips
 .. _vim-snippets : https://github.com/honza/vim-snippets

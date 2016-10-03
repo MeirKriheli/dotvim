@@ -6,7 +6,7 @@ call plug#begin()
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-fugitive'
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/syntastic'
 Plug 'sirver/ultisnips'
 Plug 'tomtom/tlib_vim'
