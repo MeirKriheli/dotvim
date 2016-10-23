@@ -43,6 +43,7 @@ Plug 'chriskempson/base16-vim'
 Plug 'tomasr/molokai'
 Plug 'edkolev/tmuxline.vim'
 Plug 'fatih/vim-go'
+Plug 'rust-lang/rust.vim'
 
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'

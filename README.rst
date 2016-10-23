@@ -2,8 +2,8 @@
 My vim setup
 ============================================================
 
-My vim IDE setup for Python, Go, html, css, javascript, typescript, gettext and
-more
+My vim IDE setup for Python, Go, Rust, html, css, javascript, typescript,
+gettext and more.
 
 
 Features
@@ -133,6 +133,8 @@ Plugins
 * vim-snippets_ - vim-snipmate default snippets
 * python-mode_ - Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box
 * vim-go_ - Go development plugin for Vim
+* rust.vim_ -  provides Rust file detection, syntax highlighting, formatting,
+  Syntastic integration, and more.
 * DrawIt_ - Ascii drawing plugin: lines, ellipses, arrows, fills, and more!
 * vim-surround_ - quoting/parenthesizing made simple
 * Shebang_ - Make executable by setting the correct shebang and executable bit
@@ -188,6 +190,7 @@ Plugins
 .. _vim-repeat: https://github.com/tpope/vim-repeat
 .. _MatchTag: https://github.com/gregsexton/MatchTag
 .. _YouCompleteMe: https://github.com/valloric/youcompleteme
+.. _rust.vim: https://github.com/rust-lang/rust.vim
 
 
 Shortcuts and re-Mappings
