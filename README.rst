@@ -155,7 +155,7 @@ Plugins
 * splitjoin.vim_ - A vim plugin that simplifies the transition between multiline
   and single-line code
 * vim-repeat_ - enable repeating supported plugin maps with "."
-
+* tsuquyomi_ - A Vim plugin for TypeScript
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
 .. _base16-vim: https://github.com/chriskempson/base16-vim
@@ -191,6 +191,7 @@ Plugins
 .. _MatchTag: https://github.com/gregsexton/MatchTag
 .. _YouCompleteMe: https://github.com/valloric/youcompleteme
 .. _rust.vim: https://github.com/rust-lang/rust.vim
+.. _tsuquyomi: https://github.com/Quramy/tsuquyomi
 
 
 Shortcuts and re-Mappings

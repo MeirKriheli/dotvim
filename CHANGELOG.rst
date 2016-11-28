@@ -3,6 +3,12 @@ Changelog
 
 Important changes are mentioned below.
 
+2016-11-28
+----------
+
+* Added vimproc
+* Added tsuquyomi (TypeScript support)
+
 2016-10-03
 ----------
 

@@ -5,6 +5,7 @@ call plug#begin()
 
 Plug 'altercation/vim-colors-solarized'
 Plug 'tpope/vim-dispatch'
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/syntastic'
@@ -44,6 +45,8 @@ Plug 'tomasr/molokai'
 Plug 'edkolev/tmuxline.vim'
 Plug 'fatih/vim-go'
 Plug 'rust-lang/rust.vim'
+Plug 'Quramy/tsuquyomi'
+
 
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'
