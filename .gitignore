@@ -6,4 +6,4 @@ vimrc.after
 spell/*
 bundle/
 plugged/
-autoload/plug.vim
+autoload/plug.vim*
