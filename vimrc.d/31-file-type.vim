@@ -26,5 +26,5 @@ autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=4 sw=4 sts=0 noexpandtab
 
 " snipMate
-autocmd FileType python set ft=python.django " For SnipMate
+" autocmd FileType python set ft=python.django " For SnipMate
 autocmd FileType html set ft=htmldjango.html " For SnipMate

@@ -58,6 +58,13 @@ make sure plugins list is updated (or restart vim)::
     :PlugUpdate
 
 
+completor.vim
+-------------
+
+For setting up completor.vim_ per specific supported language, please see:
+https://github.com/maralla/completor.vim#completers
+
+
 Upgrading
 ----------
 
@@ -105,6 +112,7 @@ Plugins
 * Lawrencium_ - Mercurial wrapper for Vim, inspired by Tim Pope's Fugitive
 * ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder.
 * SuperTab_ - Insert mode completions with Tab
+* completor.vim_ - Async completion framework made ease 
 * Syntastic_ - Syntax checking hacks for vim.
 * UltiSnips_ - The ultimate snippet solution for Vim.
 * vim-snippets_ - vim-snipmate default snippets
@@ -168,6 +176,7 @@ Plugins
 .. _MatchTag: https://github.com/gregsexton/MatchTag
 .. _rust.vim: https://github.com/rust-lang/rust.vim
 .. _tsuquyomi: https://github.com/Quramy/tsuquyomi
+.. _completor.vim: https://github.com/maralla/completor.vim
 
 
 Shortcuts and re-Mappings
