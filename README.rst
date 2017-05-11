@@ -34,28 +34,6 @@ Prerequisites
 
 Vim with Python support.
 
-
-YouCompleteMe
--------------
-
-You can override the installation of YouCompleteMe by setting the variable
-``g:dotvim_ycm_build_command`` in your ``vimrc.before`` (for more info, see
-Overrides_  section and YouCompleteMe_ docs), e.g.::
-
-    let g:dotvim_ycm_build_command='./install.py --clang-completer --gocode-completer --tern-completer --racer-completer'
-
-* CMake
-* for Go support: install Go and add ``--gocode-completer`` to
-  ``g:dotvim_ycm_build_command``.
-* TypeScript support: install Node.js and npm then install the TypeScript SDK with npm ``install -g typescript``.
-* JavaScript support: install Node.js and npm and add ``--tern-completer`` to
-  ``g:dotvim_ycm_build_command``.
-* Rust support: install Rust and add ``--racer-completer`` to
-  ``g:dotvim_ycm_build_command``.
-
-For more info, see https://github.com/valloric/youcompleteme.
-
-
 Usage
 ============
 
@@ -126,7 +104,6 @@ Plugins
 * Fugitive_ - a Git wrapper so awesome, it should be illegal
 * Lawrencium_ - Mercurial wrapper for Vim, inspired by Tim Pope's Fugitive
 * ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder.
-* YouCompleteMe_ - A code-completion engine for Vim.
 * SuperTab_ - Insert mode completions with Tab
 * Syntastic_ - Syntax checking hacks for vim.
 * UltiSnips_ - The ultimate snippet solution for Vim.
@@ -189,7 +166,6 @@ Plugins
 .. _splitjoin.vim: https://github.com/AndrewRadev/splitjoin.vim
 .. _vim-repeat: https://github.com/tpope/vim-repeat
 .. _MatchTag: https://github.com/gregsexton/MatchTag
-.. _YouCompleteMe: https://github.com/valloric/youcompleteme
 .. _rust.vim: https://github.com/rust-lang/rust.vim
 .. _tsuquyomi: https://github.com/Quramy/tsuquyomi
 

@@ -50,9 +50,4 @@ Plug 'Quramy/tsuquyomi'
 
 " Over 70 language packs
 Plug 'sheerun/vim-polyglot'
-
-let g:dotvim_ycm_build_command = get(g:, 'dotvim_ycm_build_command', './install.py')
-
-Plug 'Valloric/YouCompleteMe', { 'do': dotvim_ycm_build_command}
-
 call plug#end()
