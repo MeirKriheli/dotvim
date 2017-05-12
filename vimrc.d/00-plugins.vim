@@ -8,7 +8,6 @@ Plug 'tpope/vim-dispatch'
 Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'tpope/vim-fugitive'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'scrooloose/syntastic'
 Plug 'sirver/ultisnips'
 Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
@@ -55,6 +54,9 @@ if v:version >= 800
     " Vim 8.0: Alternative async-completor plugin
     " built-in support for python (jedi), java, etc.
     Plug 'maralla/completor.vim'
+    Plug 'w0rp/ale'
+else
+    Plug 'scrooloose/syntastic'
 endif
 
 call plug#end()

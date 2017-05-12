@@ -110,10 +110,11 @@ Plugins
 * vim-distpach_ - asynchronous build and test dispatcher
 * Fugitive_ - a Git wrapper so awesome, it should be illegal
 * Lawrencium_ - Mercurial wrapper for Vim, inspired by Tim Pope's Fugitive
-* ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder.
+* ctrlp.vim_ - Fuzzy file, buffer, mru, tag, etc finder
 * SuperTab_ - Insert mode completions with Tab
 * completor.vim_ - Async completion framework made ease 
-* Syntastic_ - Syntax checking hacks for vim.
+* Syntastic_ - Syntax checking hacks for vim (for vim < 8)
+* ale_ - Asynchronous Lint Engine (for vim >= 8)
 * UltiSnips_ - The ultimate snippet solution for Vim.
 * vim-snippets_ - vim-snipmate default snippets
 * python-mode_ - Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box
@@ -177,6 +178,7 @@ Plugins
 .. _rust.vim: https://github.com/rust-lang/rust.vim
 .. _tsuquyomi: https://github.com/Quramy/tsuquyomi
 .. _completor.vim: https://github.com/maralla/completor.vim
+.. _ale: https://github.com/w0rp/ale
 
 
 Shortcuts and re-Mappings
