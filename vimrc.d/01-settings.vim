@@ -2,7 +2,6 @@
 " Basic Settings
 " ==================================================
 let mapleader="\<Space>" " change the leader to be a space vs slash
-set textwidth=80         " Try this out to see how textwidth helps
 set ch=2                 " Make command line two lines high
 set ls=2                 " allways show status line
 set scrolloff=3          " keep 3 lines when scrolling

@@ -1,9 +1,8 @@
-" ==================================================
+" ===================================================================
 " FileType and Indentation settings
 "
-" Recommended: Don't rely on this, use editorconfig
-" in your project
-" ==================================================
+" Recommended: Don't rely on this, use editorconfig " in your project
+" ===================================================================
 
 " define less filetype
 au BufNewFile,BufRead *.less set filetype=less
@@ -24,6 +23,9 @@ autocmd Filetype css setlocal ts=2 sw=2 expandtab
 autocmd Filetype less setlocal ts=2 sw=2 expandtab
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=4 sw=4 sts=0 noexpandtab
+autocmd Filetype python setlocal omnifunc=jedi#completions tw=79
+                                \ completeopt-=preview
+                                \ formatoptions+=c
 
 " snipMate
 " autocmd FileType python set ft=python.django " For SnipMate
