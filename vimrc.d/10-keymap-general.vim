@@ -10,6 +10,14 @@ cno jj <c-c>
 map <c-c> <Nop>
 imap <c-c> <Nop>
 
+" Smarter j/k navigation
+" Convert the j and k movement commands from strict linewise movements to
+" onscreen display line movements via the gj and gk commands. When
+" preceded with a count we want to go back to strict linewise movements.
+" will automatically save movements larger than 5 lines to the jumplist.
+nnoremap <expr> j v:count ? (v:count > 5 ? "m'" . v:count : '') . 'j' : 'gj'
+nnoremap <expr> k v:count ? (v:count > 5 ? "m'" . v:count : '') . 'k' : 'gk'
+
 " ==================================================
 " vimrc handling
 " ==================================================

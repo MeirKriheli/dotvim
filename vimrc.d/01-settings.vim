@@ -40,12 +40,19 @@ set completeopt=menu            " Just show the menu upon completion (faster)
 set directory=~/tmp      " Keep swap files out of the working dir, Adjust if needed in another dir
 
 syntax on
+set synmaxcol=200        " Syntax highlight only the first 200 chars"
 filetype plugin on
 filetype indent plugin on
 
 if version >= 703        " Columns and lines, only from vim >= 7.3
     set colorcolumn=80
 endif
+
+if has('linebreak')      " Break indent wrapped lines
+  set breakindent
+  let &showbreak = '↳ '
+  set cpo+=n
+end
 
 if has("gui_running")
     set lines=75
@@ -66,6 +73,7 @@ set softtabstop=4
 set hlsearch             " highlight searches
 set incsearch            " do incremental searching
 set ignorecase           " ignore case when searching
+set infercase            " smarter completions that will be case aware when ignorecase is on
 set smartcase            " if searching and search contains upper case, make case sensitive search
 
 
