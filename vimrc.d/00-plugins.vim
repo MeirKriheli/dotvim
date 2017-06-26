@@ -45,6 +45,7 @@ Plug 'edkolev/tmuxline.vim'
 Plug 'fatih/vim-go'
 Plug 'rust-lang/rust.vim'
 Plug 'Quramy/tsuquyomi'
+Plug 'ekalinin/Dockerfile.vim'
 
 
 " Over 70 language packs
