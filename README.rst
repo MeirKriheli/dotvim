@@ -142,6 +142,7 @@ Plugins
   and single-line code
 * vim-repeat_ - enable repeating supported plugin maps with "."
 * tsuquyomi_ - A Vim plugin for TypeScript
+* vim-highlightedyank_ - Make the yanked region apparent!
 
 .. _Solarized: https://github.com/altercation/vim-colors-solarized
 .. _base16-vim: https://github.com/chriskempson/base16-vim
@@ -179,6 +180,7 @@ Plugins
 .. _tsuquyomi: https://github.com/Quramy/tsuquyomi
 .. _completor.vim: https://github.com/maralla/completor.vim
 .. _ale: https://github.com/w0rp/ale
+.. _vim-highlightedyank: https://github.com/machakann/vim-highlightedyank
 
 
 Shortcuts and re-Mappings

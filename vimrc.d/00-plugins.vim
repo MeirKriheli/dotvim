@@ -45,6 +45,7 @@ Plug 'edkolev/tmuxline.vim'
 Plug 'fatih/vim-go'
 Plug 'rust-lang/rust.vim'
 Plug 'Quramy/tsuquyomi'
+Plug 'machakann/vim-highlightedyank'
 
 
 " Over 70 language packs
