@@ -46,6 +46,7 @@ Plug 'fatih/vim-go'
 Plug 'rust-lang/rust.vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'machakann/vim-highlightedyank'
+Plug 'ekalinin/Dockerfile.vim'
 
 
 " Over 70 language packs
