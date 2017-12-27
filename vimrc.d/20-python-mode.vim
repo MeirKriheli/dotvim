@@ -6,6 +6,7 @@
 let g:pymode_rope_completion = 0
 let g:pymode_folding = 0
 let g:pymode_trim_whitespaces = 0
+let g:pymode_lint = 0 
 
 " ==================================================
 " jedi-vim use splits instead of tabs
