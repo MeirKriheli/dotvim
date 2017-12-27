@@ -18,6 +18,10 @@ imap <c-c> <Nop>
 nnoremap <expr> j v:count ? (v:count > 5 ? "m'" . v:count : '') . 'j' : 'gj'
 nnoremap <expr> k v:count ? (v:count > 5 ? "m'" . v:count : '') . 'k' : 'gk'
 
+" Center next/previous matched string
+nnoremap n nzz
+nnoremap N Nzz
+
 " check the existence of |TextYankPost| event.
 if !exists('##TextYankPost')
   map y <Plug>(highlightedyank)
